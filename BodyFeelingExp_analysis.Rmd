@@ -1,0 +1,511 @@
+---
+title: "Circadian Mood"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+date: '2022-11-21'
+---
+
+### Install missing packages
+```{r}
+pacman::p_load(tidyverse, lmerTest)
+
+```
+
+
+#Get and clean BodyFeelingExp data
+```{r}
+library(tidyverse)
+
+
+path <- r"(C:\Users\maria\OneDrive\Dokumenter\Uni\Advanced Cognitive Neuroscience\homeostasis_and_happiness\BodyFeelingExp_data\BodyFeelingExp_data)"
+
+setwd(path)
+
+#Get FaceStroopData
+datadir <- path
+
+
+#Find files
+files<-list.files(datadir,pattern='^BodyFeelingExp_.+?csv',full.names=TRUE)
+
+#Prepare an empty data frame for the data (also removes old version)
+dataBFE<-data.frame()
+
+#How many datasets were there
+n_datasets_raw<-length(files)
+#Prepare a variable to monitor how many datasets we keep
+n_datasets<-0
+#Prepare a variable to monitor how many points we originally had
+n_datapoints_raw<-0
+
+#Loop to go through all files in the list
+for(iii in 1:n_datasets_raw){
+  
+  #remove old loaded file to not risk importing it multiple times
+  if(exists('data_temp')) rm(data_temp)
+  
+  #Load data
+  data_temp<-read.csv(files[iii])
+  if(dim(data_temp)[2]==31){
+    data_temp[1,6]<-data_temp[dim(data_temp)[1],6]
+    data_temp<-data_temp[1,c(6,8:27)]
+        if(length(colnames(dataBFE))==0){
+          dataBFE=data_temp
+          rm(data_temp)
+          #counter to monitor included datasets
+          n_datasets<-n_datasets+1
+        }
+        #Bind loaded data with actual data
+        else {dataBFE<-rbind(dataBFE,data_temp)
+          rm(data_temp)
+          #counter to monitor included datasets
+          n_datasets<-n_datasets+1
+        }
+    }
+}
+
+#A variable to monitor how many points we keep
+n_datapoints<-length(dataBFE[,1])
+
+```
+
+### Additional preprocessing
+```{r}
+#Make a variable which has hour and minutes of the day as decimal variable
+dataBFE$hour2<-dataBFE$hour+(dataBFE$minute)/60
+```
+
+### summarizing stats -- assess IDs
+
+```{r}
+dataBFE %>%
+  distinct(id) %>% 
+  nrow()
+
+dataBFE %>%
+  group_by(id) %>%
+  dplyr::summarise(count = length((id)))
+
+# nrow(dataBFE)
+
+
+```
+
+## Take care of duplicate IDs
+
+```{r}
+# fix participant IDs
+dataBFE <- dataBFE %>% 
+  mutate(id = ifelse(id == " Woo55", "woo55", id)) %>% 
+  mutate(id = ifelse(id == "Woo55", "woo55", id)) %>% 
+  mutate(id = ifelse(id == "ESG44 ", "ESG44", id)) %>% 
+  mutate(id = ifelse(id == " POP33", "POP33", id)) %>% 
+  mutate(id = ifelse(id == "POP33 ", "POP33", id)) %>% 
+  mutate(id = ifelse(id == "hej123", "hej12", id)) %>% 
+  mutate(id = ifelse(id == "Qwel12", "qwel12", id)) %>% 
+  mutate(id = ifelse(id == "www111", "www11", id)) %>% 
+  mutate(id = ifelse(id == "Qwe12", "qwe12", id)) %>% 
+  mutate(id = ifelse(id == "www123", "www12", id)) %>% 
+  mutate(id = ifelse(id == "dig05", "dlg05", id))
+
+
+```
+
+## Some plotting
+
+```{r}
+library(ggplot2)
+ggplot(dataBFE,aes(x=hour2,y=HeartRate))+geom_smooth()+geom_point()
+ggplot(dataBFE,aes(x=hour2,y=mood))+geom_smooth()+geom_point()
+ggplot(dataBFE,aes(x=hour2,y=fresh))+geom_smooth()+geom_point()
+ggplot(dataBFE,aes(x=hour2,y=hunger))+geom_smooth()+geom_point()
+
+```
+# High-school trigonometry for circidian analysis
+
+## It all starts with a circle and a triangle
+```{r}
+#Radius
+r<-1
+# Get x-values from minus 1 to plus 1
+x<-seq(-1,1,0.00001)
+# A circle with c(0,0) centre can be written with these two equations (following Pythagoras)
+y1<-sqrt(r^2-x^2)
+y2<--sqrt(r^2-x^2)
+y<-c(y1,y2)
+x<-c(x,x)
+#Plotting the circle with sine and cosine values
+pp=pi/4
+plot(x,y,type='l')
+lines(x=c(0,0),y=c(-1,1))
+lines(x=c(0,cos(pp)),y=c(0,sin(pp)),col='darkgreen')
+lines(x=c(cos(pp),cos(pp)),y=c(0,sin(pp)),col='darkblue')
+text(x=c(-0.15+cos(pp)),y=c(0.5*sin(pp)),labels='sin(x)',col='darkblue')
+lines(x=c(0,cos(pp)),y=c(sin(pp),sin(pp)),col='darkred')
+text(x=c(0.5*cos(pp)),y=c(+0.15+sin(pp)),labels='cos(x)',col='darkred')
+```
+
+### Going beyond the circle, the sine and cosine functions can describe cycles in time
+
+$$
+y(t)=\beta{sin}(2\pi f t )
+$$
+$$
+y(t)=\beta{cos}(2\pi f t )
+$$
+Beta is the amplitude (the height of the wave)
+f is the frequency (the number of cycles per time unit)
+t is time point
+
+
+
+#### Plotting circadian sine and cosine waves
+```{r}
+#cycle frequency (in this case per hour) - one cycle per 24 hours
+cf=1/24
+#sample frequency per hour
+fs=100
+#Duration in hours
+dur=24
+#A time vector divided by fs
+t = seq(0, dur, 1/fs)
+#Make a sine wave (with amplitude =1) for each time point in t
+u = sin(2*pi*cf*t)
+#Make a cosine wave (with amplitude =1) for each time point in t
+u2= cos(2*pi*cf*t)
+#Plot the waves
+plot(x=t,y=u, type='l',col='darkblue',xlab='time(hours)',ylab='Amplitude')
+text(x=1+t[1000],y=-0.2+u[500],labels='y=sin(2*pi*cf*t)',col='darkblue')
+lines(x=t,y=u2, type='l',col='darkred')
+text(x=-1+t[500],y=-0.2+u2[500],labels='Y=cos(2*pi*cf*t)',col='darkred')
+```
+As can be seen, the sine function is a time shifted version of the cosine function and vice versa.
+The time shift is also called phase. We can add a constant for the phase (phi) to the sine/cosine wave function.
+
+$$
+y(t)=\beta{sin}(2\pi f t + \phi)
+$$
+
+#### Plotting circadian sine wave with phase shift
+```{r}
+#cycle frequency (in this case per hour) - one cycle per 24 hours
+cf=1/24
+#sample frequency per hour
+fs=100
+#Duration in hours
+dur=24
+#A time vector divided by fs
+t = seq(0, dur, 1/fs)
+#a  phase shift of pi/2 radians (half a cycle) This could be any number
+phi=pi/2
+#Make a sine wave (with amplitude =1)
+u = sin(2*pi*cf*t)
+#Make a sine wave (with amplitude =1), and phase shift
+u2= cos(2*pi*cf*t+phi)
+#Plot the waves
+plot(x=t,y=u, type='l',col='darkblue',xlab='time(hours)',ylab='Amplitude')
+text(x=1+t[1000],y=-0.2+u[500],labels='y=sin(2*pi*cf*t)',col='darkblue')
+lines(x=t,y=u2, type='l',lty='dashed',col='darkblue')
+text(x=-1+t[500],y=0.2+u2[500],labels='Y=sin(2*pi*cf*t+phi)',col='darkblue')
+```
+Using the trigonometric identity
+^caption should be sine and cosine
+
+$$
+{sin(A+B)}={sin(A)cos(B)}-{cos(A)sin(B)}
+$$
+we can rewrite the sine function (including phase) as
+
+$$
+y(t)={\beta_1{sin}(2\pi f t)}+{\beta_2{cos}(2\pi f t)}
+$$
+^so we have a beta estimate for sin and one for cos
+where 
+$$
+{\beta_1}=\beta{cos(\phi)}, {\beta_2}=-\beta{sin(\phi)}
+$$
+We can use the rewritten sine function in a linear regression analysis, where we estimate the best fitting B1 and B2. This will yield a composite estimate of the amplitude and the phase of the data.
+
+This will allow us to use sine and cosine waves to model a circadian rhythm, even if we don't know when it peaks. The amplitude will be given by
+
+$$
+{\beta}=\sqrt{\beta_1^2+\beta_2^2}
+$$
+The phase (phi) will be given by
+$$
+{\phi}=atan2(\beta_1,\beta_2)
+$$
+
+#### Use the sine and cosine waves to make 24 hour oscillation predictors for the BodyFeelingExp data
+
+```{r}
+#cycle frequency (in this case per hour) - one cycle per 24 hours
+cf=1/24
+
+#Make sine and cosine waves for each time point present in the data
+
+dataBFE$sinCirc<-sin(2*pi*cf*dataBFE$hour2)
+dataBFE$cosCirc<-cos(2*pi*cf*dataBFE$hour2)
+
+# Plot the predictors for each data point in the data
+ggplot(dataBFE, aes(x=hour2,y=sinCirc))+
+      geom_point(col='darkblue')+
+      geom_point(aes(y=cosCirc),col='darkred')+
+      ylab('Circadian sine and cosine')+xlab('Time of day (hours)')
+
+```
+
+## Fitting 24 hour Oscillation model
+
+#### Freshness
+```{r}
+library(lmerTest)
+# Freshness: Simple oscillation model
+modelBFEfreshCirc<-lmer(fresh~sinCirc+cosCirc+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEfreshCirc)
+m_temp
+dataBFE$freshCircFit<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc
+
+plot(x=dataBFE$hour2,y=dataBFE$freshCircFit,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=fresh))+geom_smooth()+geom_smooth(aes(x=hour2,y=freshCircFit),col='darkgreen')+labs(x='Time of day (hours)', y='Tired/Fresh')
+```
+
+
+#### Mood
+```{r}
+library(lmerTest)
+# Mood: Simple oscillation model
+modelBFEmoodCirc<-lmer(mood~sinCirc+cosCirc+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEmoodCirc)
+m_temp
+dataBFE$CircFit<-m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc
+
+plot(x=dataBFE$hour2,y=dataBFE$CircFit,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=mood))+geom_smooth()+geom_smooth(aes(x=hour2,y=CircFit+mean(mood)),col='darkgreen')+labs(x='Time of day (hours)', y='Negative/Positive Mood')
+```
+
+#### HeartRate
+```{r}
+# Freshness: Simple oscillation model
+modelBFEHeartRateCirc<-lmer(HeartRate~sinCirc+cosCirc+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEHeartRateCirc)
+m_temp
+dataBFE$HeartRateCircFit<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc
+
+plot(x=dataBFE$hour2,y=dataBFE$HeartRateCircFit,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=HeartRate))+geom_smooth()+geom_smooth(aes(x=hour2,y=HeartRateCircFit),col='darkgreen')+labs(x='Time of day (hours)', y='Tired/Fresh')
+```
+
+
+#### Make a 12 hour oscillation model to compare with the 24 hour model
+
+```{r}
+#cycle frequency (in this case per hour) - one cycle per 24 hours
+cf=1/12
+
+#Make sine and cosine waves for each time point present in the data
+
+dataBFE$sinCirc12<-sin(2*pi*cf*dataBFE$hour2)
+dataBFE$cosCirc12<-cos(2*pi*cf*dataBFE$hour2)
+
+# Plot the predictors for each data point in the data
+ggplot(dataBFE, aes(x=hour2,y=sinCirc12))+
+      geom_point(col='darkblue')+
+      geom_point(aes(y=cosCirc12),col='darkred')+
+      ylab('sinCirc/cosCirc')+
+      ggtitle('Sine and cosine waves from time point in the data')+
+      xlab('Hours in a day')+
+      ylab('Circadian sine and cosine')
+
+```
+
+## Fitting 12 hour Oscillation models
+
+
+#### Freshness
+```{r}
+# Freshness: Simple oscillation model
+modelBFEfreshCirc12<-lmer(fresh~sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEfreshCirc12)
+m_temp
+dataBFE$freshCircFit12<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc12+m_temp$coefficients[3,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$freshCircFit12,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=fresh))+geom_smooth()+geom_smooth(aes(x=hour2,y=freshCircFit12),col='darkgreen')+labs(x='Time of day (hours)', y='Tired/Fresh')
+```
+
+
+#### Mood
+```{r}
+library(lmerTest)
+# Mood: Simple oscillation model
+modelBFEmoodCirc12<-lmer(mood~sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEmoodCirc12)
+m_temp
+dataBFE$CircFit12<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc12+m_temp$coefficients[3,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$CircFit12,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=mood))+geom_smooth()+geom_smooth(aes(x=hour2,y=CircFit12),col='darkgreen')+labs(x='Time of day (hours)', y='Negative/Positive Mood')
+```
+
+#### HeartRate
+```{r}
+# Freshness: Simple oscillation model
+modelBFEHeartRateCirc12<-lmer(HeartRate~sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEHeartRateCirc12)
+m_temp
+dataBFE$HeartRateCircFit12<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc12+m_temp$coefficients[3,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$HeartRateCircFit12,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=HeartRate))+geom_smooth()+geom_smooth(aes(x=hour2,y=HeartRateCircFit12),col='darkgreen')+labs(x='Time of day (hours)', y='Tired/Fresh')
+```
+## Combining 12 and 24 hours
+
+#### Freshness
+```{r}
+# Freshness: Simple oscillation model
+modelBFEfreshCircBoth<-lmer(fresh~sinCirc+cosCirc+sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEfreshCircBoth)
+m_temp
+dataBFE$freshCircFitBoth<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc+m_temp$coefficients[4,1]*dataBFE$sinCirc12+m_temp$coefficients[5,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$freshCircFitBoth,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=fresh))+
+  geom_smooth()+
+  geom_smooth(aes(x=hour2,y=freshCircFitBoth),col='darkgreen')+
+  labs(x='Time of day (hours)', y='Alertness')
+
+  
+```
+
+#### Mood
+```{r}
+library(lmerTest)
+# Mood: Simple oscillation model
+modelBFEmoodCircBoth<-lmer(mood~sinCirc+cosCirc+sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEmoodCircBoth)
+m_temp
+dataBFE$CircFitBoth<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc+m_temp$coefficients[4,1]*dataBFE$sinCirc12+m_temp$coefficients[5,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$CircFitBoth,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=mood))+geom_smooth()+geom_smooth(aes(x=hour2,y=CircFitBoth),col='darkgreen')+labs(x='Time of day (hours)', y='Mood')
+```
+#### HeartRate
+```{r}
+# Freshness: Simple oscillation model
+modelBFEHeartRateCircBoth<-lmer(HeartRate~+sinCirc+cosCirc+sinCirc12+cosCirc12+(1|id),data=dataBFE)
+m_temp<-summary(modelBFEHeartRateCircBoth)
+m_temp
+dataBFE$HeartRateCircFitBoth<-m_temp$coefficients[1,1]+m_temp$coefficients[2,1]*dataBFE$sinCirc+m_temp$coefficients[3,1]*dataBFE$cosCirc++m_temp$coefficients[4,1]*dataBFE$sinCirc12+m_temp$coefficients[5,1]*dataBFE$cosCirc12
+
+plot(x=dataBFE$hour2,y=dataBFE$HeartRateCircFitBoth,type='p',col='darkgreen')
+
+ggplot(dataBFE,aes(x=hour2,y=HeartRate))+geom_smooth()+geom_smooth(aes(x=hour2,y=HeartRateCircFitBoth),col='darkgreen')+labs(x='Time of day (hours)', y='Heartrate')
+```
+
+## Model comparisons
+### Is the 24 hour or the 12 hour model the best?
+```{r}
+#Comparing models for freshness
+anova(modelBFEfreshCirc12,  modelBFEfreshCircBoth)
+anova( modelBFEfreshCirc, modelBFEfreshCircBoth)
+
+#Comparing models for mood
+anova(modelBFEmoodCirc12, modelBFEmoodCircBoth)
+anova(modelBFEmoodCirc, modelBFEmoodCircBoth)
+
+#Comparing models for heartrate
+anova(modelBFEHeartRateCirc12,modelBFEHeartRateCircBoth)
+anova(modelBFEHeartRateCirc,modelBFEHeartRateCircBoth)
+
+#effect(modelBFEHeartRateCirc)
+```
+```{r}
+
+
+```
+
+
+
+
+### Activity and Mental activity
+```{r}
+
+library(ggplot2)
+ggplot(dataBFE,aes(x=MentalActivity))+geom_bar()
+ggplot(dataBFE,aes(x=Activity))+geom_bar()+coord_flip()
+
+#Mood as function of Mental activity
+modelBFEmoodMentalAct<-lmer(mood~MentalActivity + (1|id),data=dataBFE)
+anova(modelBFEmoodMentalAct)
+
+#Mood as function of activity
+modelBFEmoodAct<-lmer(mood~Activity + (1|id),data=dataBFE)
+anova(modelBFEmoodAct)
+```
+### alertness
+```{r}
+# alertness boxplot
+ggplot(dataBFE, aes(as.factor(month), fresh, fill = id)) + 
+  geom_boxplot() + labs(x = "Month", y = "Alertness")+
+  ggtitle("Alertness per month per participant")
+```
+
+### heartrate
+```{r}
+# heartrate boxplot
+ggplot(dataBFE, aes(as.factor(month), HeartRate, fill = id)) + 
+  geom_boxplot() + labs(x = "Month", y = "Heartrate")+
+  ggtitle("Heartrate per month per participant")
+```
+```{r}
+# mood scatterplot circadian sine
+ggplot(dataBFE, aes(sinCirc, mood, colour = id)) + 
+  # geom_smooth(method = "loess") +
+  geom_point() + labs(x = "Participants", y = "Mood") +
+  ggtitle("Mood and circadian sine wave")
+```
+
+
+```{r}
+# mood by activity
+ggplot(dataBFE, aes(mood, Activity, colour = Activity)) + 
+  # geom_point()+
+  geom_boxplot()+
+  ggtitle("Activity and mood")+xlab('Mood')
+```
+
+  
+### Mood
+```{r}
+# mood boxplot
+ggplot(dataBFE, aes(as.factor(month), mood, fill = id)) + 
+  geom_boxplot() + labs(x = "Month", y = "Mood") +
+  ggtitle("Mood per month per participant")
+```
+```{r}
+# mood scatterplot
+ggplot(dataBFE, aes(as.factor(id), mood, colour = id)) + 
+  geom_point() + labs(x = "Participants", y = "Mood") +
+  ggtitle("Mood variability per participant")
+
+```
+
+
+### Mood by month
+```{r}
+library(ggplot2)
+ggplot(dataBFE,aes(y=mood, x=as.factor(month)))+geom_boxplot()
+
+
+```

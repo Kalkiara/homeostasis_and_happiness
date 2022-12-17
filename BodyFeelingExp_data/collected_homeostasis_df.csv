@@ -1,0 +1,399 @@
+exp_id,Time,year,month,date,hour,minute,seconds,id,Activity,MentalActivity,HeartRate,age,Gender,Handedness,mood,fresh,hunger,H_since_Sleep,H_since_Eat
+35gzbh,Tue Nov 15 2022 12:54:16 GMT+0100 (CET),2022,11,15,12,54,16,Woo55,"Working, Studying",Unsymbolized thinking,72,23,female,right,50,70,100,5,0
+29f8q7,Fri Sep 23 2022 08:44:33 GMT+0200 (Centraleuropæisk sommertid),2022,9,23,8,44,33,Cic22,"Showering, Getting Ready",Inner voice,63,22,female,right,83,39,81,0,0
+3a15pr,Sun Sep 11 2022 12:36:18 GMT+0200 (Centraleuropæisk sommertid),2022,9,11,12,36,18,Cic22,Listening to music,Sensory awareness,78,22,female,right,90,90,72,3,1
+3kzt48,Thu Oct 13 2022 14:07:14 GMT+0200 (Centraleuropæisk sommertid),2022,10,13,14,7,14,Cic22,Chatting,Inner voice,73,22,female,right,70,37,74,5,1
+3olhyu,Mon Sep 12 2022 12:04:23 GMT+0200 (Centraleuropæisk sommertid),2022,9,12,12,4,23,Cic22,"Working, Studying",Inner voice,75,22,female,right,74,59,100,5,1
+8eogce,Fri Oct 14 2022 21:47:36 GMT+0200 (Centraleuropæisk sommertid),2022,10,14,21,47,36,Cic22,Eating,Inner voice,70,22,female,right,88,41,95,12,0
+8uzmxy,Wed Nov 16 2022 18:40:26 GMT+0100 (Centraleuropæisk normaltid),2022,11,16,18,40,26,Cic22,"Sleeping, Resting",Inner voice,64,22,female,right,64,50,35,11,1
+de66mh,Sat Sep 10 2022 13:56:28 GMT+0200 (Centraleuropæisk sommertid),2022,9,10,13,56,28,Cic22,Playing,Inner voice,84,22,female,right,89,76,58,5,2
+hxe2tq,Fri Nov 11 2022 10:21:11 GMT+0100 (Centraleuropæisk normaltid),2022,11,11,10,21,11,Cic22,Playing,Inner voice,64,22,female,right,93,82,100,1,0
+kkgjrv,Thu Sep 08 2022 21:30:01 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,21,30,1,Cic22,Watching TV,Inner voice,66,22,female,right,73,22,100,13,0
+mlrtbr,Wed Sep 14 2022 13:37:45 GMT+0200 (Centraleuropæisk sommertid),2022,9,14,13,37,45,Cic22,Eating,Inner voice,68,22,female,right,100,88,100,6,0
+nxxllv,Thu Sep 08 2022 16:35:20 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,35,20,Cic22,"Working, Studying",Inner voice,78,22,female,right,87,43,86,8,0
+o2u7ah,Fri Sep 09 2022 10:18:32 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,10,18,32,Cic22,Watching TV,Inner voice,72,22,female,right,63,68,22,1,13
+p122gu,Wed Oct 19 2022 23:56:22 GMT+0200 (Centraleuropæisk sommertid),2022,10,19,23,56,22,Cic22,Chatting,Inner voice,60,22,female,right,91,10,34,15,2
+pvf9ra,Tue Sep 13 2022 11:36:54 GMT+0200 (Centraleuropæisk sommertid),2022,9,13,11,36,54,Cic22,"Waiting, Being in line",Inner voice,72,22,female,right,88,85,26,3,14
+rodjss,Tue Nov 08 2022 15:03:24 GMT+0100 (Centraleuropæisk normaltid),2022,11,8,15,3,24,Cic22,Leisure,Inner voice,72,22,female,right,65,39,89,6,0
+uqnznb,Tue Sep 13 2022 15:48:07 GMT+0200 (Centraleuropæisk sommertid),2022,9,13,15,48,7,Cic22,Leisure,Inner voice,72,22,female,right,100,82,84,8,3
+vua8pu,Thu Sep 08 2022 18:25:15 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,18,25,15,Cic22,Doing sport,Sensory awareness,111,22,female,right,77,91,26,10,2
+xf9vzt,Mon Sep 19 2022 21:16:05 GMT+0200 (Centraleuropæisk sommertid),2022,9,19,21,16,5,Cic22,Being on the Internet,Inner voice,64,22,female,right,83,24,100,14,1
+xvot3t,Thu Sep 22 2022 21:52:07 GMT+0200 (Centraleuropæisk sommertid),2022,9,22,21,52,7,Cic22,Leisure,Inner voice,66,22,female,right,91,13,100,14,1
+z51vl0,Sun Oct 16 2022 17:25:21 GMT+0200 (Centraleuropæisk sommertid),2022,10,16,17,25,21,Cic22,Leisure,Inner voice,88,22,female,right,80,44,23,7,2
+9yxbqg,Fri Sep 09 2022 10:01:19 GMT+0200 (CEST),2022,9,9,10,1,19,dan72,"Working, Studying",Inner seeing,72,23,female,left,62,61,50,3,1
+mo5knv,Fri Nov 11 2022 10:21:27 GMT+0100 (CET),2022,11,11,10,21,27,dan72,"Working, Studying",Unsymbolized thinking,72,23,female,left,72,50,65,3,1
+o1zjl6,Sat Oct 08 2022 20:06:39 GMT+0200 (CEST),2022,10,8,20,6,39,dan72,Housework,Inner seeing,72,23,female,left,49,26,100,9,0
+r4vo8u,Sat Sep 10 2022 13:55:39 GMT+0200 (CEST),2022,9,10,13,55,39,dan72,"Waiting, Being in line",Sensory awareness,75,23,female,left,70,24,100,4,0
+seey0c,Fri Sep 23 2022 09:11:41 GMT+0200 (CEST),2022,9,23,9,11,41,dan72,Eating,Feelings,66,23,female,left,74,13,100,1,0
+vy8kww,Thu Sep 15 2022 20:06:56 GMT+0200 (CEST),2022,9,15,20,6,56,dan72,Other,Sensory awareness,66,23,female,left,74,16,86,13,0
+jswuu7,Fri Nov 18 2022 13:19:08 GMT+0100 (CET),2022,11,18,13,19,8,dig05,Cooking,Inner voice,78,25,female,right,83,80,46,5,0
+0afp3k,Mon Sep 19 2022 22:02:53 GMT+0200 (CEST),2022,9,19,22,2,53,dlg05,"Showering, Getting Ready",Inner voice,69,25,female,right,66,29,72,15,3
+0rjln1,Sat Oct 08 2022 20:13:22 GMT+0200 (CEST),2022,10,8,20,13,22,dlg05,Cooking,Inner voice,75,25,female,right,76,38,65,11,1
+13kb03,Thu Oct 27 2022 07:35:33 GMT+0200 (CEST),2022,10,27,7,35,33,dlg05,"Sleeping, Resting",Inner voice,60,25,female,right,76,18,38,0,12
+2csacb,Tue Oct 11 2022 22:16:59 GMT+0200 (CEST),2022,10,11,22,16,59,dlg05,Watching TV,Inner voice,66,25,female,right,79,32,99,14,1
+35d0vn,Fri Nov 18 2022 07:40:16 GMT+0100 (CET),2022,11,18,7,40,16,dlg05,"Sleeping, Resting",Sensory awareness,60,25,female,right,69,24,43,0,10
+3pcbtm,Mon Oct 31 2022 06:59:56 GMT+0100 (CET),2022,10,31,6,59,56,dlg05,"Sleeping, Resting",Unsymbolized thinking,60,25,female,right,70,6,30,0,11
+405hg6,Tue Oct 18 2022 11:31:54 GMT+0200 (CEST),2022,10,18,11,31,54,dlg05,Being on the Internet,Unsymbolized thinking,72,25,female,right,81,65,28,4,4
+6jaclu,Thu Sep 08 2022 21:30:22 GMT+0200 (CEST),2022,9,8,21,30,22,dlg05,Watching TV,Unsymbolized thinking,63,25,female,right,61,40,81,12,0
+6vg2lm,Tue Oct 25 2022 17:24:38 GMT+0200 (CEST),2022,10,25,17,24,38,dlg05,Doing sport,Unsymbolized thinking,105,25,female,right,85,76,31,9,0
+7th0w6,Sun Oct 16 2022 17:21:06 GMT+0200 (CEST),2022,10,16,17,21,6,dlg05,Being on the Internet,Inner voice,63,25,female,right,86,44,91,9,1
+9bkxhr,Sun Sep 18 2022 17:49:45 GMT+0200 (CEST),2022,9,18,17,49,45,dlg05,Watching TV,Unsymbolized thinking,60,25,female,right,61,34,67,9,2
+a01jph,Sun Oct 23 2022 13:48:14 GMT+0200 (CEST),2022,10,23,13,48,14,dlg05,Commuting,Unsymbolized thinking,93,25,female,right,91,16,77,3,0
+bdmal6,Thu Sep 08 2022 16:36:00 GMT+0200 (CEST),2022,9,8,16,36,0,dlg05,"Working, Studying",NA,75,25,female,right,64,55,33,8,1
+blcc8y,Mon Sep 12 2022 17:02:41 GMT+0200 (CEST),2022,9,12,17,2,41,dlg05,Doing sport,Inner voice,102,25,female,right,79,83,42,10,1
+cl8qpu,Sat Sep 10 2022 13:55:51 GMT+0200 (CEST),2022,9,10,13,55,51,dlg05,Housework,Unsymbolized thinking,78,25,female,right,70,60,60,4,0
+e4747h,Wed Nov 02 2022 22:23:18 GMT+0100 (CET),2022,11,2,22,23,18,dlg05,"Showering, Getting Ready",Unsymbolized thinking,69,25,female,right,87,63,100,15,2
+eomvkz,Tue Oct 04 2022 14:04:48 GMT+0200 (CEST),2022,10,4,14,4,48,dlg05,Listening to music,Unsymbolized thinking,75,25,female,right,75,58,71,6,1
+f9eanr,Fri Nov 11 2022 10:34:21 GMT+0100 (CET),2022,11,11,10,34,21,dlg05,"Working, Studying",Inner voice,72,25,female,right,64,58,42,3,3
+hjgjj1,Wed Nov 16 2022 08:39:01 GMT+0100 (CET),2022,11,16,8,39,1,dlg05,"Sleeping, Resting",Unsymbolized thinking,60,25,female,right,70,16,45,0,13
+la549j,Mon Sep 12 2022 07:29:05 GMT+0200 (CEST),2022,9,12,7,29,5,dlg05,Eating,Inner voice,60,25,female,right,76,60,22,0,13
+nrwg3a,Wed Oct 19 2022 08:24:35 GMT+0200 (CEST),2022,10,19,8,24,35,dlg05,Doing sport,Unsymbolized thinking,90,25,female,right,76,31,50,1,0
+p5oenq,Tue Sep 13 2022 14:12:05 GMT+0200 (CEST),2022,9,13,14,12,5,dlg05,"Working, Studying",Unsymbolized thinking,69,25,female,right,73,42,50,6,1
+r5345q,Tue Nov 15 2022 10:47:26 GMT+0100 (CET),2022,11,15,10,47,26,dlg05,Chatting,Inner voice,90,25,female,right,68,40,40,3,3
+ruv66p,Thu Sep 08 2022 18:15:28 GMT+0200 (CEST),2022,9,8,18,15,28,dlg05,Commuting,Unsymbolized thinking,63,25,female,right,67,45,21,10,3
+s4vhbl,Thu Sep 15 2022 20:04:42 GMT+0200 (CEST),2022,9,15,20,4,42,dlg05,Being on the Internet,Inner voice,69,25,female,right,71,44,30,12,1
+sc44t1,Thu Sep 22 2022 21:52:16 GMT+0200 (CEST),2022,9,22,21,52,16,dlg05,Eating,Inner voice,72,25,female,right,72,37,94,11,0
+spunlr,Fri Sep 23 2022 08:21:52 GMT+0200 (CEST),2022,9,23,8,21,52,dlg05,Doing sport,Inner voice,90,25,female,right,81,73,68,1,0
+z9yn6w,Sat Nov 12 2022 14:24:32 GMT+0100 (CET),2022,11,12,14,24,32,dlg05,Chatting,Inner voice,63,25,female,right,85,32,24,4,3
+4038wq,Sun Sep 11 2022 23:13:01 GMT+0200 (Central European Summer Time),2022,9,11,23,13,1,eeg339,"Sleeping, Resting",Sensory awareness,81,21,male,right,80,63,50,12,3
+49u15a,Fri Nov 11 2022 10:34:25 GMT+0100 (Central European Standard Time),2022,11,11,10,34,25,eeg339,"Working, Studying",Unsymbolized thinking,72,22,male,right,73,43,57,2,1
+4uuu3s,Mon Sep 12 2022 13:06:51 GMT+0200 (Central European Summer Time),2022,9,12,13,6,51,eeg339,"Working, Studying",Sensory awareness,63,21,male,right,63,66,40,3,0
+eu173y,Thu Sep 08 2022 16:30:11 GMT+0200 (Central European Summer Time),2022,9,8,16,30,11,eeg339,"Working, Studying",Sensory awareness,69,21,male,right,22,32,32,5,4
+flpsoy,Tue Oct 25 2022 18:07:04 GMT+0200 (Central European Summer Time),2022,10,25,18,7,4,eeg339,"Sleeping, Resting",Inner voice,78,22,male,right,23,26,17,7,0
+gta1ac,Fri Sep 09 2022 12:20:37 GMT+0200 (Central European Summer Time),2022,9,9,12,20,37,eeg339,"Showering, Getting Ready",Inner voice,78,21,male,right,52,40,39,3,1
+k5q880,Sun Oct 02 2022 13:15:39 GMT+0200 (Central European Summer Time),2022,10,2,13,15,39,eeg339,Commuting,Sensory awareness,66,21,male,right,78,59,71,3,2
+xmanb2,Thu Oct 06 2022 20:10:51 GMT+0200 (Central European Summer Time),2022,10,6,20,10,51,eeg339,Other,Inner voice,78,21,male,right,52,22,34,12,6
+y82zbj,Mon Oct 24 2022 13:23:56 GMT+0200 (Central European Summer Time),2022,10,24,13,23,56,eeg339,"Showering, Getting Ready",Inner voice,67,21,male,right,80,67,40,3,2
+21bqkn,Wed Sep 07 2022 11:13:21 GMT+0200 (Central European Summer Time),2022,9,7,11,13,21,ept23,Leisure,NA,60,49,male,right,89,95,42,4,3
+o40uwv,Thu Oct 27 2022 07:25:45 GMT+0200 (Central European Summer Time),2022,10,27,7,25,45,ESG44,"Showering, Getting Ready",Inner voice,72,25,female,right,50,40,23,0,9
+0ahl6d,Sun Nov 06 2022 22:20:59 GMT+0100 (Central European Standard Time),2022,11,6,22,20,59,ESG44,Calling someone,Inner voice,67,25,female,right,63,27,89,13,3
+434qb0,Wed Oct 19 2022 08:45:06 GMT+0200 (Central European Summer Time),2022,10,19,8,45,6,ESG44,"Sleeping, Resting",Inner voice,61,25,female,right,62,82,22,0,10
+4v8ebu,Sun Oct 30 2022 17:11:22 GMT+0100 (Central European Standard Time),2022,10,30,17,11,22,ESG44,Being on the Internet,Inner voice,70,25,female,right,37,75,37,9,4
+6j54ms,Sun Oct 23 2022 09:01:20 GMT+0200 (Central European Summer Time),2022,10,23,9,1,20,ESG44,"Sleeping, Resting",Feelings,62,25,female,right,67,36,36,0,9
+74nawr,Thu Nov 03 2022 08:05:01 GMT+0100 (Central European Standard Time),2022,11,3,8,5,1,ESG44,"Sleeping, Resting",Unsymbolized thinking,67,25,female,right,63,60,30,0,13
+7mwjmh,Thu Oct 20 2022 08:48:12 GMT+0200 (Central European Summer Time),2022,10,20,8,48,12,ESG44,"Sleeping, Resting",Unsymbolized thinking,56,25,female,right,50,58,27,0,10
+8n4rlz,Fri Oct 07 2022 12:45:45 GMT+0200 (Central European Summer Time),2022,10,7,12,45,45,ESG44,Doing sport,Inner voice,93,25,female,right,70,80,21,6,5
+9p5ajg,Tue Sep 27 2022 11:30:42 GMT+0200 (Central European Summer Time),2022,9,27,11,30,42,ESG44,"Working, Studying",Inner voice,56,25,female,right,56,61,73,5,4
+9qc592,Sun Sep 25 2022 19:58:51 GMT+0200 (Central European Summer Time),2022,9,25,19,58,51,ESG44,Cooking,Sensory awareness,63,25,female,right,64,25,22,12,2
+9utdl0,Fri Oct 21 2022 11:39:56 GMT+0200 (Central European Summer Time),2022,10,21,11,39,56,ESG44,"Working, Studying",Inner voice,53,25,female,right,67,75,30,4,3
+aqgnxe,Fri Sep 09 2022 08:06:03 GMT+0200 (Central European Summer Time),2022,9,9,8,6,3,ESG44,"Sleeping, Resting",Sensory awareness,58,25,female,right,50,40,27,0,11
+b7t2o4,Fri Oct 14 2022 22:53:43 GMT+0200 (Central European Summer Time),2022,10,14,22,53,43,ESG44,Watching TV,Sensory awareness,71,25,female,right,85,22,88,16,2
+d2obgc,Fri Nov 11 2022 10:34:33 GMT+0100 (Central European Standard Time),2022,11,11,10,34,33,ESG44,"Working, Studying",Inner voice,74,25,female,right,70,61,39,3,0
+j7x0cs,Sat Oct 08 2022 19:37:15 GMT+0200 (Central European Summer Time),2022,10,8,19,37,15,ESG44,Watching TV,Unsymbolized thinking,63,25,female,right,83,29,91,11,1
+lngdkx,Fri Sep 23 2022 11:57:07 GMT+0200 (Central European Summer Time),2022,9,23,11,57,7,ESG44,"Working, Studying",Unsymbolized thinking,80,25,female,right,60,77,74,4,0
+nclbkh,Sat Oct 29 2022 09:27:08 GMT+0200 (Central European Summer Time),2022,10,29,9,27,8,ESG44,"Sleeping, Resting",Inner voice,68,25,female,right,57,42,42,0,8
+rsn5hp,Wed Oct 05 2022 17:22:27 GMT+0200 (Central European Summer Time),2022,10,5,17,22,27,ESG44,Listening to music,Feelings,73,25,female,right,43,77,80,9,1
+srhfv2,Mon Nov 14 2022 09:06:30 GMT+0100 (Central European Standard Time),2022,11,14,9,6,30,ESG44,"Working, Studying",Inner voice,81,25,female,right,76,44,77,2,1
+u6dvg6,Thu Sep 08 2022 16:37:50 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,37,50,ESG44,"Working, Studying",Sensory awareness,72,25,female,right,80,68,70,9,0
+vx2onh,Fri Nov 18 2022 08:18:21 GMT+0100 (Central European Standard Time),2022,11,18,8,18,21,ESG44,"Sleeping, Resting",Inner voice,72,25,female,right,63,66,24,0,11
+whbzo2,Wed Oct 26 2022 22:40:52 GMT+0200 (Central European Summer Time),2022,10,26,22,40,52,ESG44,Watching TV,Inner voice,72,25,female,right,74,21,95,15,1
+zqqq7b,Tue Sep 13 2022 14:19:54 GMT+0200 (Central European Summer Time),2022,9,13,14,19,54,ESG44,Eating,Inner seeing,79,25,female,right,62,39,31,7,0
+30gcpz,Wed Oct 26 2022 22:36:26 GMT+0200 (Centraleuropæisk sommertid),2022,10,26,22,36,26,hej12,"Sleeping, Resting",Inner voice,94,25,female,right,82,6,91,16,1
+77hz4u,Tue Oct 04 2022 13:59:30 GMT+0200 (CEST),2022,10,4,13,59,30,hej12,"Working, Studying",Unsymbolized thinking,61,25,female,right,75,70,100,6,1
+8gg6k5,Thu Sep 15 2022 19:58:49 GMT+0200 (CEST),2022,9,15,19,58,49,hej12,Watching TV,Unsymbolized thinking,74,25,female,right,65,50,72,12,1
+gxnoky,Tue Sep 27 2022 07:26:46 GMT+0200 (CEST),2022,9,27,7,26,46,hej12,Drinking,Sensory awareness,85,25,female,right,73,29,79,0,12
+h6jvhs,Sat Sep 24 2022 10:03:37 GMT+0200 (CEST),2022,9,24,10,3,37,hej12,Listening to music,Unsymbolized thinking,84,25,female,right,70,71,19,1,14
+n3stwo,Sun Oct 09 2022 18:43:47 GMT+0200 (CEST),2022,10,9,18,43,47,hej12,Watching TV,Inner voice,75,25,female,right,80,74,100,11,0
+nb3crd,Wed Nov 02 2022 22:21:11 GMT+0100 (Centraleuropæisk normaltid),2022,11,2,22,21,11,hej12,Watching TV,Inner voice,60,25,female,right,68,9,94,15,2
+pmq9rr,Fri Oct 14 2022 21:38:19 GMT+0200 (Centraleuropæisk sommertid),2022,10,14,21,38,19,hej12,Watching TV,Unsymbolized thinking,82,25,female,right,70,26,41,16,3
+uhnuee,Tue Oct 11 2022 22:41:23 GMT+0200 (CEST),2022,10,11,22,41,23,hej12,Watching TV,Inner voice,76,25,female,right,95,32,98,15,3
+xmp98o,Mon Oct 24 2022 15:07:03 GMT+0200 (Centraleuropæisk sommertid),2022,10,24,15,7,3,hej12,Doing sport,Inner seeing,102,25,female,right,72,72,85,7,1
+yvydv9,Sun Nov 13 2022 15:01:30 GMT+0100 (Centraleuropæisk normaltid),2022,11,13,15,1,30,hej12,Being on the Internet,Inner voice,54,25,female,right,50,36,95,6,0
+f0ha6y,Fri Sep 09 2022 10:20:04 GMT+0200 (CEST),2022,9,9,10,20,4,hej123,Drinking,Inner voice,84,25,female,right,62,62,62,8,10
+3zpsep,Sat Oct 22 2022 13:05:53 GMT+0200 (Central European Summer Time),2022,10,22,13,5,53,jqi11,"Texting, Emailing, Social Networking",Unsymbolized thinking,78,28,female,right,100,85,6,4,3
+4hceat,Wed Oct 05 2022 22:03:02 GMT+0200 (Central European Summer Time),2022,10,5,22,3,2,jqi11,"Texting, Emailing, Social Networking",Feelings,81,28,female,right,100,50,100,7,2
+6totyh,Thu Sep 22 2022 22:17:15 GMT+0200 (Central European Summer Time),2022,9,22,22,17,15,jqi11,"Texting, Emailing, Social Networking",Unsymbolized thinking,69,28,female,right,90,1,33,6,3
+75f9aj,Mon Oct 31 2022 21:38:26 GMT+0100 (Central European Standard Time),2022,10,31,21,38,26,jqi11,"Texting, Emailing, Social Networking",Inner voice,72,28,female,right,86,16,100,15,2
+7fbudp,Thu Nov 17 2022 19:48:21 GMT+0100 (Central European Standard Time),2022,11,17,19,48,21,jqi11,Eating,Unsymbolized thinking,81,28,female,right,98,32,100,12,0
+9r4a6g,Sat Nov 19 2022 21:38:13 GMT+0100 (Central European Standard Time),2022,11,19,21,38,13,jqi11,Drinking,Feelings,93,28,female,right,100,50,100,16,1
+cjc1w2,Thu Sep 08 2022 16:30:06 GMT+0200 (中欧夏令时间),2022,9,8,16,30,6,jqi11,"Working, Studying",Sensory awareness,78,28,female,right,100,91,100,6,4
+crfb5y,Tue Sep 13 2022 16:50:25 GMT+0200 (Central European Summer Time),2022,9,13,16,50,25,jqi11,"Working, Studying",Sensory awareness,81,28,female,right,71,85,80,8,3
+cumzf0,Fri Oct 14 2022 20:19:55 GMT+0200 (Central European Summer Time),2022,10,14,20,19,55,jqi11,"Showering, Getting Ready",Unsymbolized thinking,84,28,female,right,72,77,100,13,2
+fmx2o6,Mon Nov 07 2022 10:55:44 GMT+0100 (Central European Standard Time),2022,11,7,10,55,44,jqi11,"Texting, Emailing, Social Networking",Unsymbolized thinking,90,28,female,right,94,67,100,4,0
+jots8m,Sat Sep 10 2022 16:27:34 GMT+0200 (Central European Summer Time),2022,9,10,16,27,34,jqi11,"Working, Studying",Unsymbolized thinking,72,28,female,right,75,83,74,7,1
+m9pllh,Fri Sep 23 2022 19:42:30 GMT+0200 (Central European Summer Time),2022,9,23,19,42,30,jqi11,Other,Unsymbolized thinking,87,28,female,right,88,68,100,7,2
+mwlw9m,Sun Oct 09 2022 17:21:09 GMT+0200 (Central European Summer Time),2022,10,9,17,21,9,jqi11,"Sleeping, Resting",Sensory awareness,73,28,female,right,74,94,100,9,1
+o6qp3k,Thu Sep 15 2022 22:03:33 GMT+0200 (Central European Summer Time),2022,9,15,22,3,33,jqi11,"Working, Studying",Sensory awareness,93,28,female,right,60,63,23,5,0
+q5o65w,Tue Oct 04 2022 22:39:58 GMT+0200 (Central European Summer Time),2022,10,4,22,39,58,jqi11,"Working, Studying",Unsymbolized thinking,75,28,female,right,100,10,100,15,2
+r6ydd3,Wed Sep 14 2022 16:06:06 GMT+0200 (Central European Summer Time),2022,9,14,16,6,6,jqi11,Chatting,Feelings,75,28,female,right,100,94,63,5,1
+tg6sc6,Sun Sep 18 2022 23:25:31 GMT+0200 (Central European Summer Time),2022,9,18,23,25,31,jqi11,"Waiting, Being in line",Feelings,87,28,female,right,100,50,84,6,5
+tgysa0,Mon Sep 19 2022 21:39:27 GMT+0200 (Central European Summer Time),2022,9,19,21,39,27,jqi11,"Sleeping, Resting",Feelings,72,28,female,right,100,87,100,5,3
+whj6n7,Sun Oct 23 2022 19:09:55 GMT+0200 (Central European Summer Time),2022,10,23,19,9,55,jqi11,"Working, Studying",Unsymbolized thinking,75,28,female,right,64,100,26,3,6
+zqapt9,Mon Sep 12 2022 22:22:32 GMT+0200 (Central European Summer Time),2022,9,12,22,22,32,jqi11,"Sleeping, Resting",Feelings,66,28,female,right,77,6,100,6,3
+28on0u,Tue Oct 25 2022 17:21:17 GMT+0200 (Centraleuropæisk sommertid),2022,10,25,17,21,17,kau00,Being on the Internet,Inner voice,78,23,female,right,61,47,35,8,0
+2p8qu5,Tue Oct 18 2022 10:12:18 GMT+0200 (Centraleuropæisk sommertid),2022,10,18,10,12,18,kau00,"Texting, Emailing, Social Networking",Inner voice,72,23,female,right,72,60,90,1,0
+2tgmqj,Sat Sep 10 2022 10:54:54 GMT+0200 (CEST),2022,9,10,10,54,54,kau00,Being on the Internet,Inner voice,81,23,female,right,40,45,91,2,1
+49oufc,Thu Nov 17 2022 10:07:54 GMT+0100 (Centraleuropæisk normaltid),2022,11,17,10,7,54,kau00,Being on the Internet,Inner voice,84,23,female,right,63,58,24,0,14
+4kj4we,Thu Sep 22 2022 21:57:37 GMT+0200 (Centraleuropæisk sommertid),2022,9,22,21,57,37,kau00,Leisure,Inner voice,120,23,female,right,75,79,40,14,0
+50b7px,Sun Oct 30 2022 16:26:19 GMT+0100 (Centraleuropæisk normaltid),2022,10,30,16,26,19,kau00,Shopping,Inner voice,102,23,female,right,61,45,43,8,4
+53kdzm,Sat Sep 10 2022 13:48:30 GMT+0200 (CEST),2022,9,10,13,48,30,kau00,Being on the Internet,Inner voice,75,23,female,right,60,47,100,5,0
+5zm83s,Sat Sep 17 2022 13:02:30 GMT+0200 (Centraleuropæisk sommertid),2022,9,17,13,2,30,kau00,Housework,Inner voice,105,23,female,right,64,73,79,3,2
+6aa31u,Fri Oct 21 2022 14:36:38 GMT+0200 (Centraleuropæisk sommertid),2022,10,21,14,36,38,kau00,Commuting,Sensory awareness,81,23,female,right,84,70,35,5,4
+6ab1wo,Sun Sep 25 2022 19:56:34 GMT+0200 (Centraleuropæisk sommertid),2022,9,25,19,56,34,kau00,Watching TV,Unsymbolized thinking,69,23,female,right,60,59,93,10,0
+6pbwmq,Mon Oct 17 2022 18:50:30 GMT+0200 (Centraleuropæisk sommertid),2022,10,17,18,50,30,kau00,Watching TV,Inner voice,81,23,female,right,75,63,100,10,0
+7p7d7d,Tue Nov 15 2022 23:31:20 GMT+0100 (Centraleuropæisk normaltid),2022,11,15,23,31,20,kau00,Being on the Internet,Inner voice,72,23,female,right,74,25,44,14,3
+7vhhbo,Fri Sep 09 2022 09:03:22 GMT+0200 (CEST),2022,9,9,9,3,22,kau00,"Texting, Emailing, Social Networking",Inner voice,81,23,female,right,65,95,91,1,0
+8qe5mz,Sun Oct 23 2022 13:41:01 GMT+0200 (Centraleuropæisk sommertid),2022,10,23,13,41,1,kau00,"Showering, Getting Ready",Inner voice,78,23,female,right,64,63,66,4,1
+9haanj,Sun Nov 06 2022 18:19:25 GMT+0100 (Centraleuropæisk normaltid),2022,11,6,18,19,25,kau00,Eating,Inner voice,84,23,female,right,67,61,71,9,0
+bm49uw,Fri Sep 09 2022 08:02:43 GMT+0200 (CEST),2022,9,9,8,2,43,kau00,"Sleeping, Resting",Inner voice,75,23,female,right,50,32,46,0,13
+c58j3k,Fri Nov 18 2022 08:44:32 GMT+0100 (Centraleuropæisk normaltid),2022,11,18,8,44,32,kau00,"Working, Studying",Inner voice,81,23,female,right,61,65,14,3,13
+elbt35,Fri Sep 23 2022 08:51:37 GMT+0200 (Centraleuropæisk sommertid),2022,9,23,8,51,37,kau00,"Sleeping, Resting",Inner voice,81,23,female,right,39,9,40,0,10
+emcanj,Mon Sep 12 2022 11:08:53 GMT+0200 (CEST),2022,9,12,11,8,53,kau00,"Working, Studying",Inner voice,87,23,female,right,43,69,39,4,1
+g2g72e,Thu Oct 20 2022 00:28:00 GMT+0200 (Centraleuropæisk sommertid),2022,10,20,0,28,0,kau00,"Sleeping, Resting",Inner voice,72,23,female,right,40,31,86,7,3
+jj0622,Wed Sep 14 2022 13:33:39 GMT+0200 (Centraleuropæisk sommertid),2022,9,14,13,33,39,kau00,"Working, Studying",Inner voice,78,23,female,right,59,81,64,6,1
+kg9xhc,Mon Sep 12 2022 20:43:21 GMT+0200 (CEST),2022,9,12,20,43,21,kau00,Listening to music,Inner voice,87,23,female,right,70,5,93,14,1
+kx397q,Sat Sep 24 2022 17:51:01 GMT+0200 (Centraleuropæisk sommertid),2022,9,24,17,51,1,kau00,Eating,Inner voice,86,23,female,right,70,41,78,8,0
+lku3v3,Wed Oct 05 2022 10:35:43 GMT+0200 (Centraleuropæisk sommertid),2022,10,5,10,35,43,kau00,"Showering, Getting Ready",Inner voice,75,23,female,right,62,56,41,1,1
+lt6d6o,Sat Nov 19 2022 14:00:50 GMT+0100 (Centraleuropæisk normaltid),2022,11,19,14,0,50,kau00,Eating,Inner voice,72,23,female,right,71,38,69,5,0
+m72pfa,Thu Sep 08 2022 16:37:10 GMT+0200 (CEST),2022,9,8,16,37,10,kau00,"Working, Studying",Sensory awareness,75,23,female,right,41,13,26,8,2
+mfbcbr,Tue Sep 27 2022 10:47:24 GMT+0200 (Centraleuropæisk sommertid),2022,9,27,10,47,24,kau00,"Working, Studying",Inner voice,90,23,female,right,71,73,95,3,2
+muxl1v,Wed Nov 02 2022 22:48:17 GMT+0100 (Centraleuropæisk normaltid),2022,11,2,22,48,17,kau00,Chatting,Sensory awareness,75,23,female,right,98,11,43,17,3
+pksdry,Thu Sep 08 2022 18:10:21 GMT+0200 (CEST),2022,9,8,18,10,21,kau00,Leisure,Inner voice,90,23,female,right,67,12,8,10,3
+qd6y4t,Tue Oct 04 2022 14:02:23 GMT+0200 (Centraleuropæisk sommertid),2022,10,4,14,2,23,kau00,Shopping,Inner voice,108,23,female,right,40,57,71,5,2
+qouoof,Sat Oct 08 2022 19:36:15 GMT+0200 (Centraleuropæisk sommertid),2022,10,8,19,36,15,kau00,Watching TV,Feelings,87,23,female,right,42,45,98,10,0
+rrungs,Mon Sep 19 2022 23:09:48 GMT+0200 (Centraleuropæisk sommertid),2022,9,19,23,9,48,kau00,Being on the Internet,Inner voice,90,23,female,right,56,34,77,16,4
+sa9xtf,Tue Oct 18 2022 20:00:20 GMT+0200 (Centraleuropæisk sommertid),2022,10,18,20,0,20,kau00,Watching TV,Inner voice,81,23,female,right,59,17,92,11,2
+sxdm5n,Sun Oct 16 2022 18:01:29 GMT+0200 (Centraleuropæisk sommertid),2022,10,16,18,1,29,kau00,Eating,Inner voice,90,23,female,right,85,74,98,9,0
+tnx348,Thu Oct 27 2022 09:24:32 GMT+0200 (Centraleuropæisk sommertid),2022,10,27,9,24,32,kau00,"Sleeping, Resting",Inner voice,75,23,female,right,66,30,24,0,14
+ubagvm,Tue Oct 11 2022 22:26:50 GMT+0200 (Centraleuropæisk sommertid),2022,10,11,22,26,50,kau00,"Showering, Getting Ready",Inner voice,69,23,female,right,63,45,46,14,3
+ukyfk2,Sun Sep 18 2022 17:18:37 GMT+0200 (Centraleuropæisk sommertid),2022,9,18,17,18,37,kau00,Cooking,Unsymbolized thinking,96,23,female,right,83,84,67,8,3
+ur6b3p,Thu Sep 08 2022 21:32:25 GMT+0200 (CEST),2022,9,8,21,32,25,kau00,"Showering, Getting Ready",Inner voice,78,23,female,right,37,7,67,14,3
+vg49u9,Mon Sep 12 2022 07:53:31 GMT+0200 (CEST),2022,9,12,7,53,31,kau00,"Showering, Getting Ready",Inner voice,90,23,female,right,27,70,96,1,0
+wr81yb,Fri Oct 14 2022 23:01:36 GMT+0200 (Centraleuropæisk sommertid),2022,10,14,23,1,36,kau00,"Showering, Getting Ready",Inner voice,90,23,female,right,75,44,89,15,1
+wvztjy,Thu Oct 13 2022 19:06:39 GMT+0200 (Centraleuropæisk sommertid),2022,10,13,19,6,39,kau00,Eating,Inner voice,81,23,female,right,60,41,100,10,0
+xjlvxu,Thu Sep 15 2022 19:58:45 GMT+0200 (Centraleuropæisk sommertid),2022,9,15,19,58,45,kau00,Being on the Internet,Sensory awareness,78,23,female,right,45,66,96,11,1
+ywawdp,Wed Nov 09 2022 22:08:02 GMT+0100 (Centraleuropæisk normaltid),2022,11,9,22,8,2,kau00,"Working, Studying",Inner voice,84,23,female,right,68,31,61,15,1
+zksboe,Fri Oct 07 2022 08:32:26 GMT+0200 (Centraleuropæisk sommertid),2022,10,7,8,32,26,kau00,Eating,Inner voice,81,23,female,right,63,75,95,0,0
+zv6lug,Thu Sep 08 2022 16:34:01 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,34,1,Kri21,"Working, Studying",Sensory awareness,63,23,male,right,58,27,72,9,0
+plz03q,Thu Sep 08 2022 16:30:09 GMT+0200 (Central European Summer Time),2022,9,8,16,30,9,lab12,"Working, Studying",Sensory awareness,66,24,male,left,65,62,85,9,1
+2me36x,Wed Sep 14 2022 11:30:22 GMT+0200 (CEST),2022,9,14,11,30,22,lex70,Commuting,Sensory awareness,69,21,female,right,58,57,49,5,2
+5sb3qn,Sat Sep 10 2022 14:31:32 GMT+0200 (CEST),2022,9,10,14,31,32,lex70,Other,Sensory awareness,66,21,female,right,67,63,43,7,1
+h2yl7g,Tue Sep 13 2022 14:10:31 GMT+0200 (CEST),2022,9,13,14,10,31,lex70,Watching TV,Sensory awareness,72,21,female,right,34,28,41,7,1
+n61cvy,Sun Sep 18 2022 17:46:52 GMT+0200 (CEST),2022,9,18,17,46,52,lex70,Chatting,Sensory awareness,72,21,female,right,77,61,28,12,6
+px95de,Mon Sep 19 2022 21:13:10 GMT+0200 (CEST),2022,9,19,21,13,10,lex70,Being on the Internet,Inner seeing,66,21,female,right,70,35,62,16,2
+q3p9sm,Fri Sep 09 2022 06:41:03 GMT+0200 (CEST),2022,9,9,6,41,3,lex70,"Sleeping, Resting",Inner seeing,66,22,female,right,62,27,28,0,10
+qea3q5,Mon Sep 12 2022 11:13:01 GMT+0200 (CEST),2022,9,12,11,13,1,lex70,"Waiting, Being in line",Sensory awareness,75,21,female,right,40,24,50,5,0
+sq0x7j,Thu Sep 08 2022 21:29:08 GMT+0200 (CEST),2022,9,8,21,29,8,lex70,Watching TV,Feelings,75,21,female,right,80,66,72,13,0
+vbwyda,Thu Sep 15 2022 20:19:08 GMT+0200 (CEST),2022,9,15,20,19,8,lex70,Chatting,Sensory awareness,78,21,female,right,60,50,78,13,0
+zk0l3h,Thu Sep 08 2022 16:37:38 GMT+0200 (CEST),2022,9,8,16,37,38,lhb13,"Working, Studying",Inner seeing,84,21,female,right,82,37,21,8,5
+fxr4jd,Thu Sep 08 2022 21:32:50 GMT+0200 (CEST),2022,9,8,21,32,50,LHH123,Doing sport,Sensory awareness,111,24,male,right,74,88,94,13,2
+qbvekl,Thu Sep 08 2022 16:35:46 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,35,46,LHH123,"Working, Studying",Inner voice,78,24,male,right,84,25,14,9,1
+8ufwy2,Thu Sep 08 2022 16:29:20 GMT+0200 (Hora de verão da Europa Central),2022,9,8,16,29,20,luc21,"Working, Studying",Feelings,96,23,male,right,85,39,94,9,1
+my2eoe,Sat Sep 10 2022 13:49:01 GMT+0200 (CEST),2022,9,10,13,49,1,luc21,Commuting,Unsymbolized thinking,81,23,male,right,100,43,100,5,0
+tm1d89,Mon Sep 12 2022 07:22:13 GMT+0200 (CEST),2022,9,12,7,22,13,luc21,Drinking,Feelings,75,23,male,right,50,41,100,0,0
+uuao0z,Thu Sep 08 2022 21:30:07 GMT+0200 (CEST),2022,9,8,21,30,7,luc21,Chatting,Sensory awareness,111,23,male,right,71,18,100,11,0
+vd52rs,Fri Sep 09 2022 20:50:55 GMT+0200 (CEST),2022,9,9,20,50,55,luc21,Eating,Sensory awareness,78,23,male,right,98,37,74,8,0
+ade08y,Thu Sep 08 2022 16:33:44 GMT+0200 (CEST),2022,9,8,16,33,44,mia23,"Working, Studying",Inner voice,87,23,female,right,57,16,25,8,2
+09x9d5,Sat Sep 17 2022 13:04:59 GMT+0200 (Centraleuropæisk sommertid),2022,9,17,13,4,59,Mis27,Shopping,Unsymbolized thinking,84,21,female,left,77,78,44,4,1
+5fkn0g,Thu Sep 08 2022 21:30:17 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,21,30,17,Mis27,Watching TV,Unsymbolized thinking,111,21,female,left,50,58,92,11,0
+8kas26,Fri Sep 16 2022 10:31:00 GMT+0200 (Centraleuropæisk sommertid),2022,9,16,10,31,0,Mis27,Eating,Inner voice,84,21,female,left,74,73,90,1,0
+9bcdo0,Fri Sep 09 2022 09:31:08 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,9,31,8,Mis27,Being on the Internet,Inner voice,75,21,female,left,68,27,38,1,13
+fdfxak,Fri Sep 09 2022 22:51:31 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,22,51,31,Mis27,Being on the Internet,Sensory awareness,99,21,female,left,33,24,70,15,2
+nb9nou,Tue Sep 13 2022 17:48:49 GMT+0200 (Centraleuropæisk sommertid),2022,9,13,17,48,49,Mis27,"Working, Studying",Inner voice,87,21,female,left,50,60,73,8,1
+sgqn8w,Wed Sep 14 2022 11:26:55 GMT+0200 (Centraleuropæisk sommertid),2022,9,14,11,26,55,Mis27,Housework,Inner voice,84,21,female,left,65,77,50,4,1
+t9200e,Mon Sep 19 2022 01:22:26 GMT+0200 (Centraleuropæisk sommertid),2022,9,19,1,22,26,Mis27,"Sleeping, Resting",Feelings,72,21,female,left,29,19,42,15,3
+twa9wy,Sat Sep 10 2022 17:27:44 GMT+0200 (Centraleuropæisk sommertid),2022,9,10,17,27,44,Mis27,"Working, Studying",Inner voice,90,21,female,left,84,72,60,9,3
+txw8bn,Fri Sep 09 2022 19:23:51 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,19,23,51,Mis27,Being on the Internet,Unsymbolized thinking,75,21,female,left,74,29,17,11,4
+y5vtc0,Mon Sep 12 2022 07:28:05 GMT+0200 (Centraleuropæisk sommertid),2022,9,12,7,28,5,Mis27,Commuting,Unsymbolized thinking,141,21,female,left,38,31,50,0,9
+zhj3jb,Thu Sep 08 2022 16:29:18 GMT+0200 (Central European Summer Time),2022,9,8,16,29,18,Mis27,"Working, Studying",Sensory awareness,105,21,female,left,70,15,73,6,1
+0lbgju,Mon Oct 17 2022 15:37:11 GMT+0200 (CEST),2022,10,17,15,37,11,pid10,Listening to music,Feelings,66,23,female,right,59,57,75,8,0
+17gt9c,Wed Nov 16 2022 22:15:58 GMT+0100 (CET),2022,11,16,22,15,58,pid10,"Sleeping, Resting",Inner voice,60,23,female,right,74,59,37,15,4
+2tsj7z,Tue Sep 20 2022 07:08:49 GMT+0200 (CEST),2022,9,20,7,8,49,pid10,"Showering, Getting Ready",Inner voice,60,23,female,right,20,26,33,0,12
+3jctk7,Wed Nov 02 2022 14:14:41 GMT+0100 (CET),2022,11,2,14,14,41,pid10,"Texting, Emailing, Social Networking",Sensory awareness,78,23,female,right,72,73,73,7,3
+5hvdsj,Mon Sep 12 2022 11:08:06 GMT+0200 (CEST),2022,9,12,11,8,6,pid10,Other,Sensory awareness,72,23,female,right,59,74,60,0,4
+7gpflu,Mon Oct 24 2022 20:43:56 GMT+0200 (CEST),2022,10,24,20,43,56,pid10,Watching TV,Sensory awareness,66,23,female,right,37,27,45,14,0
+8ar9w1,Sat Oct 08 2022 23:11:02 GMT+0200 (CEST),2022,10,8,23,11,2,pid10,Leisure,Sensory awareness,60,23,female,right,57,67,77,15,1
+9mk389,Sun Oct 30 2022 21:08:59 GMT+0100 (CET),2022,10,30,21,8,59,pid10,Watching TV,Feelings,63,23,female,right,15,20,65,10,1
+aglhu9,Thu Oct 27 2022 12:35:12 GMT+0200 (CEST),2022,10,27,12,35,12,pid10,Eating,Inner voice,84,23,female,right,61,75,35,4,0
+c3acu5,Sat Oct 29 2022 08:46:06 GMT+0200 (CEST),2022,10,29,8,46,6,pid10,Cooking,Sensory awareness,69,23,female,right,34,34,39,0,12
+c5nymt,Thu Sep 29 2022 09:11:57 GMT+0200 (CEST),2022,9,29,9,11,57,pid10,"Working, Studying",Inner seeing,66,23,female,right,60,78,82,1,0
+e99uje,Wed Sep 14 2022 11:48:22 GMT+0200 (CEST),2022,9,14,11,48,22,pid10,"Working, Studying",Inner voice,66,23,female,right,67,72,60,4,1
+ealxg5,Thu Sep 08 2022 21:29:22 GMT+0200 (CEST),2022,9,8,21,29,22,pid10,"Sleeping, Resting",Inner voice,63,23,female,right,64,7,70,14,0
+gfp0c7,Thu Sep 08 2022 20:21:43 GMT+0200 (CEST),2022,9,8,20,21,43,pid10,"Texting, Emailing, Social Networking",Inner voice,75,23,female,right,72,37,40,13,1
+h100hw,Fri Nov 18 2022 15:31:54 GMT+0100 (CET),2022,11,18,15,31,54,pid10,"Sleeping, Resting",Unsymbolized thinking,69,23,female,right,65,16,28,8,1
+j93h0r,Sun Sep 25 2022 14:46:44 GMT+0200 (CEST),2022,9,25,14,46,44,pid10,Housework,Unsymbolized thinking,57,23,female,right,70,69,100,6,1
+je9tuu,Fri Oct 07 2022 14:40:47 GMT+0200 (CEST),2022,10,7,14,40,47,pid10,Watching TV,Feelings,54,23,female,right,61,36,70,7,2
+m42ypd,Sat Sep 10 2022 12:09:09 GMT+0200 (CEST),2022,9,10,12,9,9,pid10,Doing sport,Inner voice,96,23,female,right,83,85,29,4,2
+mhfy0x,Mon Sep 12 2022 20:19:15 GMT+0200 (CEST),2022,9,12,20,19,15,pid10,Going out into nature,Inner voice,105,23,female,right,62,87,50,13,1
+mltqqh,Fri Sep 09 2022 07:41:25 GMT+0200 (CEST),2022,9,9,7,41,25,pid10,"Sleeping, Resting",Inner voice,54,23,female,right,57,79,19,0,11
+ndcqs7,Thu Nov 03 2022 08:03:43 GMT+0100 (CET),2022,11,3,8,3,43,pid10,"Sleeping, Resting",Unsymbolized thinking,48,23,female,right,39,50,33,0,13
+pt9hej,Fri Sep 23 2022 21:11:34 GMT+0200 (CEST),2022,9,23,21,11,34,pid10,Drinking,Feelings,81,23,female,right,17,38,77,14,2
+q96hdp,Tue Oct 04 2022 21:17:05 GMT+0200 (CEST),2022,10,4,21,17,5,pid10,"Waiting, Being in line",Unsymbolized thinking,60,23,female,right,55,42,71,13,2
+qexwxr,Tue Sep 13 2022 14:19:38 GMT+0200 (CEST),2022,9,13,14,19,38,pid10,"Working, Studying",Inner voice,57,23,female,right,43,64,57,1,7
+qx1r5x,Thu Sep 08 2022 18:28:39 GMT+0200 (CEST),2022,9,8,18,28,39,pid10,Cooking,Sensory awareness,75,23,female,right,69,57,0,11,6
+r7ynor,Thu Sep 08 2022 16:35:46 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,35,46,pid10,"Working, Studying",Unsymbolized thinking,60,23,female,right,58,33,15,9,4
+sks444,Mon Sep 26 2022 19:22:08 GMT+0200 (CEST),2022,9,26,19,22,8,pid10,Leisure,Unsymbolized thinking,69,23,female,right,60,63,62,12,1
+t4uduk,Fri Oct 14 2022 22:12:56 GMT+0200 (CEST),2022,10,14,22,12,56,pid10,Watching TV,Unsymbolized thinking,69,23,female,right,56,10,44,15,3
+t53wet,Fri Nov 11 2022 10:21:05 GMT+0100 (CET),2022,11,11,10,21,5,pid10,"Waiting, Being in line",Feelings,78,23,female,right,17,77,58,2,2
+u3oqrv,Thu Sep 22 2022 19:46:55 GMT+0200 (CEST),2022,9,22,19,46,55,pid10,"Waiting, Being in line",Feelings,69,23,female,right,27,64,87,13,0
+u62zdk,Mon Sep 12 2022 07:23:21 GMT+0200 (CEST),2022,9,12,7,23,21,pid10,Eating,Inner voice,42,23,female,right,43,57,42,0,0
+v6379f,Tue Sep 20 2022 09:24:07 GMT+0200 (CEST),2022,9,20,9,24,7,pid10,"Working, Studying",Feelings,66,23,female,right,13,37,44,2,2
+wcv4n3,Mon Nov 07 2022 17:31:23 GMT+0100 (CET),2022,11,7,17,31,23,pid10,Housework,Sensory awareness,87,23,female,right,57,88,20,10,2
+wwyqy7,Sun Sep 18 2022 21:38:12 GMT+0200 (CEST),2022,9,18,21,38,12,pid10,Watching TV,Inner voice,69,23,female,right,40,34,85,13,0
+xpqy5p,Mon Sep 19 2022 20:13:40 GMT+0200 (CEST),2022,9,19,20,13,40,pid10,Doing sport,Sensory awareness,160,23,female,right,64,36,64,1,13
+ykljrk,Sat Oct 22 2022 09:42:19 GMT+0200 (CEST),2022,10,22,9,42,19,pid10,Being on the Internet,Feelings,72,23,female,right,34,59,81,0,0
+ze8nbe,Thu Sep 15 2022 21:12:13 GMT+0200 (CEST),2022,9,15,21,12,13,pid10,Being on the Internet,Sensory awareness,60,23,female,right,64,67,46,13,2
+zw67pz,Sat Sep 10 2022 22:57:32 GMT+0200 (CEST),2022,9,10,22,57,32,pid10,"Texting, Emailing, Social Networking",Inner voice,54,23,female,right,66,40,38,15,4
+10ypdx,Thu Nov 10 2022 13:20:21 GMT+0100 (Central European Standard Time),2022,11,10,13,20,21,pol12,"Working, Studying",Sensory awareness,80,25,female,right,72,72,33,6,2
+3p4kba,Sat Sep 17 2022 21:31:40 GMT+0200 (Centraleuropæisk sommertid),2022,9,17,21,31,40,pol12,Watching TV,Unsymbolized thinking,57,25,female,right,71,21,87,15,3
+3yukuv,Fri Sep 09 2022 10:46:23 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,10,46,23,pol12,Doing sport,Sensory awareness,66,25,female,right,83,87,50,4,2
+bfczmz,Wed Nov 16 2022 10:34:39 GMT+0100 (Central European Standard Time),2022,11,16,10,34,39,pol12,"Working, Studying",Inner voice,54,25,female,right,50,55,64,3,0
+do1zas,Mon Sep 12 2022 09:49:48 GMT+0200 (Centraleuropæisk sommertid),2022,9,12,9,49,48,pol12,"Working, Studying",Inner seeing,57,25,female,right,73,40,90,3,0
+e4bjc2,Mon Nov 07 2022 09:33:24 GMT+0100 (Central European Standard Time),2022,11,7,9,33,24,pol12,"Working, Studying",Unsymbolized thinking,55,25,female,right,60,30,80,2,2
+f0tv5u,Mon Nov 14 2022 09:43:31 GMT+0100 (Central European Standard Time),2022,11,14,9,43,31,pol12,"Working, Studying",Inner voice,68,25,female,right,68,12,66,4,2
+h5j3c6,Thu Nov 10 2022 17:23:26 GMT+0100 (Central European Standard Time),2022,11,10,17,23,26,pol12,"Working, Studying",Unsymbolized thinking,49,25,female,right,50,9,32,10,2
+k5peyx,Fri Nov 18 2022 08:47:07 GMT+0100 (Central European Standard Time),2022,11,18,8,47,7,pol12,Commuting,Inner voice,70,25,female,right,50,38,77,2,1
+m45kcx,Tue Nov 15 2022 12:53:43 GMT+0100 (Central European Standard Time),2022,11,15,12,53,43,pol12,"Working, Studying",Unsymbolized thinking,65,25,female,right,70,82,85,5,1
+nkpk0t,Fri Oct 14 2022 19:12:55 GMT+0200 (Centraleuropæisk sommertid),2022,10,14,19,12,55,pol12,Commuting,Sensory awareness,75,25,female,right,40,33,66,13,1
+pm5tyj,Mon Nov 07 2022 11:27:09 GMT+0100 (Centraleuropæisk normaltid),2022,11,7,11,27,9,pol12,"Working, Studying",Sensory awareness,51,25,female,right,72,68,75,4,1
+se462x,Mon Nov 21 2022 09:44:37 GMT+0100 (Central European Standard Time),2022,11,21,9,44,37,pol12,"Working, Studying",Sensory awareness,54,25,female,right,50,31,43,3,13
+x32tnz,Thu Sep 08 2022 17:15:58 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,17,15,58,pol12,"Working, Studying",Unsymbolized thinking,51,25,female,right,45,50,69,1,0
+x410ew,Thu Oct 13 2022 21:53:12 GMT+0200 (Centraleuropæisk sommertid),2022,10,13,21,53,12,pol12,Being on the Internet,Unsymbolized thinking,54,25,female,right,86,50,50,15,4
+xa6008,Wed Nov 16 2022 09:38:37 GMT+0100 (Central European Standard Time),2022,11,16,9,38,37,pol12,Being on the Internet,Unsymbolized thinking,51,25,female,right,50,36,28,2,12
+yu20f7,Thu Sep 08 2022 16:32:20 GMT+0200 (Central European Summer Time),2022,9,8,16,32,20,pol12,"Working, Studying",Inner seeing,54,25,female,right,74,65,23,0,3
+zksxve,Sat Sep 10 2022 22:51:23 GMT+0200 (Centraleuropæisk sommertid),2022,9,10,22,51,23,pol12,"Sleeping, Resting",Unsymbolized thinking,60,25,female,right,65,18,97,12,1
+2ytx9u,Sun Sep 25 2022 20:08:34 GMT+0200 (Central European Summer Time),2022,9,25,20,8,34,POP33,Eating,Unsymbolized thinking,66,25,female,right,85,46,96,12,0
+8pccea,Wed Oct 05 2022 06:44:23 GMT+0200 (Central European Summer Time),2022,10,5,6,44,23,POP33,"Showering, Getting Ready",Feelings,69,25,female,right,68,28,19,0,12
+c7ndpt,Thu Sep 08 2022 18:28:24 GMT+0200 (Central European Summer Time),2022,9,8,18,28,24,POP33,Commuting,Inner voice,93,25,female,right,74,85,25,12,2
+c8gyob,Thu Sep 15 2022 20:00:34 GMT+0200 (Central European Summer Time),2022,9,15,20,0,34,POP33,Watching TV,Unsymbolized thinking,60,25,female,right,75,49,86,13,1
+d8o0bs,Fri Sep 23 2022 06:56:49 GMT+0200 (Central European Summer Time),2022,9,23,6,56,49,POP33,"Sleeping, Resting",Inner voice,60,25,female,right,55,26,63,0,12
+e90kgl,Mon Sep 12 2022 12:12:32 GMT+0200 (Central European Summer Time),2022,9,12,12,12,32,POP33,"Waiting, Being in line",Unsymbolized thinking,69,25,female,right,59,42,35,6,2
+et4zt5,Tue Sep 13 2022 21:16:24 GMT+0200 (Central European Summer Time),2022,9,13,21,16,24,POP33,"Sleeping, Resting",Inner voice,57,25,female,right,86,31,46,15,2
+fwbesg,Tue Oct 04 2022 16:38:58 GMT+0200 (Central European Summer Time),2022,10,4,16,38,58,POP33,Cooking,Sensory awareness,66,25,female,right,64,29,22,9,4
+hecqqy,Tue Sep 27 2022 14:00:09 GMT+0200 (Central European Summer Time),2022,9,27,14,0,9,POP33,"Working, Studying",Inner voice,75,25,female,right,82,63,81,8,2
+hlh9o4,Mon Sep 12 2022 08:11:47 GMT+0200 (Central European Summer Time),2022,9,12,8,11,47,POP33,Chatting,Inner voice,66,25,female,right,62,33,68,2,1
+hs3y9w,Sat Sep 24 2022 14:22:46 GMT+0200 (Central European Summer Time),2022,9,24,14,22,46,POP33,Chatting,Inner voice,69,25,female,right,85,85,67,6,3
+lba6e4,Fri Sep 09 2022 07:05:28 GMT+0200 (Central European Summer Time),2022,9,9,7,5,28,POP33,"Sleeping, Resting",Unsymbolized thinking,57,25,female,right,55,28,38,0,12
+ppsnv7,Sat Sep 10 2022 13:54:11 GMT+0200 (Central European Summer Time),2022,9,10,13,54,11,POP33,Watching TV,Sensory awareness,57,25,female,right,50,41,57,5,0
+ub8327,Fri Sep 23 2022 08:33:04 GMT+0200 (Central European Summer Time),2022,9,23,8,33,4,POP33,Watching TV,Sensory awareness,66,25,female,right,66,36,86,1,0
+v0dcrb,Thu Sep 08 2022 21:41:05 GMT+0200 (Central European Summer Time),2022,9,8,21,41,5,POP33,Chatting,Unsymbolized thinking,69,25,female,right,93,13,42,15,3
+vnqhr1,Fri Oct 07 2022 13:22:05 GMT+0200 (Central European Summer Time),2022,10,7,13,22,5,POP33,Watching TV,Feelings,63,25,female,right,34,32,81,7,0
+wdsgxc,Mon Nov 14 2022 07:17:10 GMT+0100 (Central European Standard Time),2022,11,14,7,17,10,POP33,Eating,Sensory awareness,66,25,female,right,70,38,63,1,0
+zt5zz3,Thu Sep 08 2022 16:36:18 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,16,36,18,POP33,"Working, Studying",Inner voice,69,25,female,right,85,30,75,10,0
+0sqdoc,Tue Sep 27 2022 07:22:40 GMT+0200 (CEST),2022,9,27,7,22,40,qwe12,"Sleeping, Resting",Sensory awareness,63,49,male,right,96,75,20,0,12
+1m5505,Wed Oct 26 2022 22:32:13 GMT+0200 (CEST),2022,10,26,22,32,13,qwe12,Other,Inner voice,77,49,male,right,82,78,59,16,4
+1xlyem,Fri Sep 09 2022 05:51:41 GMT+0200 (CEST),2022,9,9,5,51,41,qwe12,"Sleeping, Resting",Sensory awareness,58,49,male,right,54,28,38,0,11
+2dj248,Thu Oct 27 2022 06:45:13 GMT+0200 (CEST),2022,10,27,6,45,13,qwe12,"Texting, Emailing, Social Networking",Inner voice,66,49,male,right,67,64,29,0,12
+2dp0cs,Sat Nov 19 2022 13:51:22 GMT+0100 (Centraleuropæisk normaltid),2022,11,19,13,51,22,qwe12,"Working, Studying",Inner voice,71,49,male,right,66,71,54,7,2
+2nca6u,Sat Sep 10 2022 18:05:31 GMT+0200 (CEST),2022,9,10,18,5,31,Qwe12,Housework,Inner voice,66,49,male,right,46,80,13,10,6
+3ad2hx,Thu Nov 03 2022 06:33:43 GMT+0100 (Centraleuropæisk normaltid),2022,11,3,6,33,43,qwe12,"Sleeping, Resting",Sensory awareness,55,49,male,right,68,47,48,0,11
+4fsg7f,Sat Sep 24 2022 14:21:29 GMT+0200 (CEST),2022,9,24,14,21,29,qwe12,Commuting,Inner voice,71,49,male,right,75,85,81,2,1
+4uhofz,Fri Nov 11 2022 10:19:49 GMT+0100 (Centraleuropæisk normaltid),2022,11,11,10,19,49,qwe12,"Working, Studying",Inner voice,56,49,male,right,61,95,21,4,3
+4ywsxl,Sun Sep 18 2022 17:18:07 GMT+0200 (CEST),2022,9,18,17,18,7,qwe12,"Texting, Emailing, Social Networking",Inner voice,84,49,male,right,61,92,20,10,5
+5gk85w,Wed Oct 05 2022 06:13:56 GMT+0200 (CEST),2022,10,5,6,13,56,qwe12,"Sleeping, Resting",Inner voice,59,49,male,right,67,38,34,0,11
+5utx8q,Mon Nov 14 2022 07:13:43 GMT+0100 (Centraleuropæisk normaltid),2022,11,14,7,13,43,qwe12,Other,Inner voice,78,49,male,right,61,61,86,1,0
+6plsuf,Wed Nov 09 2022 22:07:54 GMT+0100 (Centraleuropæisk normaltid),2022,11,9,22,7,54,qwe12,"Sleeping, Resting",Inner voice,54,49,male,right,58,24,58,15,3
+7esxus,Fri Oct 21 2022 11:35:11 GMT+0200 (CEST),2022,10,21,11,35,11,qwe12,"Working, Studying",Inner voice,59,49,male,right,70,93,14,5,4
+7wmcvq,Fri Sep 09 2022 06:31:17 GMT+0200 (CEST),2022,9,9,6,31,17,qwe12,"Sleeping, Resting",Sensory awareness,52,49,male,right,32,62,13,0,12
+8guacr,Thu Sep 08 2022 21:19:07 GMT+0200 (CEST),2022,9,8,21,19,7,qwe12,"Working, Studying",Sensory awareness,70,49,male,right,72,60,63,14,3
+8lczqq,Sun Oct 30 2022 16:22:26 GMT+0100 (Centraleuropæisk normaltid),2022,10,30,16,22,26,qwe12,"Sleeping, Resting",Inner voice,62,49,male,right,56,43,60,0,2
+ado6yc,Sat Sep 10 2022 13:48:20 GMT+0200 (CEST),2022,9,10,13,48,20,qwe12,"Working, Studying",Inner voice,76,49,male,right,65,67,34,6,0
+afjt7y,Wed Nov 02 2022 22:21:03 GMT+0100 (Centraleuropæisk normaltid),2022,11,2,22,21,3,qwe12,Being on the Internet,Inner voice,54,49,male,right,70,13,50,15,3
+agufy1,Sat Sep 17 2022 12:51:31 GMT+0200 (CEST),2022,9,17,12,51,31,qwe12,"Working, Studying",Inner voice,79,49,male,right,75,96,58,6,1
+azlg6t,Thu Oct 13 2022 14:06:13 GMT+0200 (CEST),2022,10,13,14,6,13,qwe12,"Working, Studying",Inner voice,66,49,male,right,57,91,44,7,1
+bfrk9u,Sat Nov 12 2022 21:00:46 GMT+0100 (Centraleuropæisk normaltid),2022,11,12,21,0,46,qwe12,Watching TV,Sensory awareness,59,49,male,right,89,70,80,14,1
+bun5ba,Mon Oct 17 2022 18:15:00 GMT+0200 (CEST),2022,10,17,18,15,0,qwe12,Commuting,Inner voice,91,49,male,right,50,82,21,11,6
+c462f2,Tue Oct 11 2022 22:18:00 GMT+0200 (CEST),2022,10,11,22,18,0,qwe12,"Sleeping, Resting",Inner voice,61,49,male,right,81,22,60,16,2
+dlbbzq,Mon Sep 12 2022 07:26:25 GMT+0200 (CEST),2022,9,12,7,26,25,qwe12,Eating,Sensory awareness,73,49,male,right,80,83,93,1,0
+dm6rp0,Thu Sep 08 2022 21:15:59 GMT+0200 (CEST),2022,9,8,21,15,59,qwe12,"Working, Studying",Sensory awareness,71,49,male,right,79,57,61,14,3
+e9eotb,Mon Sep 19 2022 21:12:30 GMT+0200 (CEST),2022,9,19,21,12,30,qwe12,"Working, Studying",Inner voice,78,49,male,right,85,90,70,15,1
+ej36df,Mon Sep 19 2022 23:09:43 GMT+0200 (CEST),2022,9,19,23,9,43,qwe12,"Sleeping, Resting",Inner voice,64,49,male,right,85,14,59,17,3
+fvqzy6,Fri Nov 18 2022 08:18:13 GMT+0100 (Centraleuropæisk normaltid),2022,11,18,8,18,13,qwe12,"Working, Studying",Sensory awareness,66,49,male,right,73,81,80,2,1
+grhff4,Tue Sep 13 2022 21:48:37 GMT+0200 (CEST),2022,9,13,21,48,37,qwe12,Being on the Internet,Inner voice,62,49,male,right,19,80,22,1,10
+h2tbx0,Thu Sep 08 2022 18:08:55 GMT+0200 (CEST),2022,9,8,18,8,55,qwe12,Commuting,Inner voice,99,49,male,right,81,73,13,11,6
+hbqs2b,Fri Sep 23 2022 08:14:43 GMT+0200 (CEST),2022,9,23,8,14,43,qwe12,"Thinking, Praying",Inner voice,69,49,male,right,84,95,92,2,1
+hlhnqe,Wed Nov 16 2022 18:41:04 GMT+0100 (Centraleuropæisk normaltid),2022,11,16,18,41,4,qwe12,Other,Inner voice,60,49,male,right,76,76,15,12,7
+kb13dm,Fri Oct 14 2022 21:38:13 GMT+0200 (CEST),2022,10,14,21,38,13,qwe12,Other,Inner voice,56,49,male,right,36,18,84,17,3
+l1qc12,Tue Sep 13 2022 18:02:43 GMT+0200 (CEST),2022,9,13,18,2,43,qwe12,Commuting,Inner voice,97,49,male,right,88,95,9,11,5
+lcxql6,Sat Sep 24 2022 14:23:00 GMT+0200 (CEST),2022,9,24,14,23,0,qwe12,Housework,Inner voice,75,49,male,right,75,59,99,12,0
+lv0rd0,Sat Oct 29 2022 07:37:40 GMT+0200 (Centraleuropæisk sommertid),2022,10,29,7,37,40,qwe12,"Texting, Emailing, Social Networking",Sensory awareness,54,49,male,right,55,76,16,1,13
+lw601p,Sun Oct 16 2022 17:19:45 GMT+0200 (CEST),2022,10,16,17,19,45,qwe12,"Texting, Emailing, Social Networking",Sensory awareness,64,49,male,right,79,62,29,2,3
+opw0a6,Thu Sep 22 2022 21:50:51 GMT+0200 (CEST),2022,9,22,21,50,51,qwe12,"Working, Studying",Inner voice,70,49,male,right,61,39,82,18,2
+pnn6vb,Tue Oct 04 2022 13:58:42 GMT+0200 (CEST),2022,10,4,13,58,42,qwe12,"Working, Studying",Sensory awareness,61,49,male,right,76,84,35,7,2
+pnrhnl,Thu Sep 08 2022 21:25:50 GMT+0200 (Central European Summer Time),2022,9,8,21,25,50,qwe12,"Working, Studying",Sensory awareness,69,49,male,right,56,65,55,15,4
+pvwcd8,Sat Nov 12 2022 14:08:05 GMT+0100 (Centraleuropæisk normaltid),2022,11,12,14,8,5,qwe12,"Working, Studying",Inner voice,63,49,male,right,72,84,82,7,1
+pz72st,Fri Oct 07 2022 08:25:53 GMT+0200 (CEST),2022,10,7,8,25,53,qwe12,Doing sport,Inner voice,95,49,male,right,43,60,95,2,1
+rz3a9g,Wed Oct 19 2022 23:50:27 GMT+0200 (CEST),2022,10,19,23,50,27,qwe12,"Waiting, Being in line",Inner voice,51,49,male,right,70,34,56,17,5
+se50wn,Tue Oct 25 2022 17:21:14 GMT+0200 (CEST),2022,10,25,17,21,14,qwe12,Other,Inner voice,82,49,male,right,69,91,12,11,5
+t1p0hn,Wed Sep 14 2022 11:27:29 GMT+0200 (CEST),2022,9,14,11,27,29,qwe12,Chatting,Sensory awareness,68,49,male,right,78,95,9,5,4
+t5oo8u,Sun Nov 13 2022 23:12:51 GMT+0100 (Centraleuropæisk normaltid),2022,11,13,23,12,51,qwe12,"Sleeping, Resting",Inner voice,69,49,male,right,68,26,47,15,5
+voyc6q,Mon Sep 12 2022 11:05:45 GMT+0200 (CEST),2022,9,12,11,5,45,qwe12,"Working, Studying",Inner voice,66,49,male,right,83,96,25,5,4
+w10xuk,Sun Nov 06 2022 15:25:43 GMT+0100 (Centraleuropæisk normaltid),2022,11,6,15,25,43,qwe12,Chatting,Inner voice,71,49,male,right,68,91,22,8,4
+whdzeq,Wed Oct 19 2022 07:57:22 GMT+0200 (CEST),2022,10,19,7,57,22,qwe12,Being on the Internet,Inner voice,53,49,male,right,68,62,37,1,11
+wt4a75,Tue Nov 15 2022 23:31:24 GMT+0100 (Centraleuropæisk normaltid),2022,11,15,23,31,24,qwe12,"Texting, Emailing, Social Networking",Inner voice,48,49,male,right,70,17,33,17,4
+wv4q5h,Sat Oct 08 2022 19:31:35 GMT+0200 (CEST),2022,10,8,19,31,35,qwe12,Chatting,Sensory awareness,60,49,male,right,90,77,95,13,1
+ww07ua,Sun Oct 23 2022 08:08:42 GMT+0200 (CEST),2022,10,23,8,8,42,qwe12,"Thinking, Praying",Inner voice,58,49,male,right,27,69,37,1,13
+x4uw9r,Sat Sep 10 2022 23:13:10 GMT+0200 (CEST),2022,9,10,23,13,10,qwe12,"Sleeping, Resting",Inner voice,50,49,male,right,21,15,77,15,4
+yf124w,Sat Sep 10 2022 18:39:50 GMT+0200 (CEST),2022,9,10,18,39,50,qwe12,Housework,Inner voice,85,49,male,right,25,94,9,11,7
+ymx8f5,Tue Sep 13 2022 14:09:55 GMT+0200 (CEST),2022,9,13,14,9,55,qwe12,"Texting, Emailing, Social Networking",Inner voice,73,49,male,right,93,95,88,8,1
+zs7nnt,Tue Oct 18 2022 00:34:10 GMT+0200 (CEST),2022,10,18,0,34,10,qwe12,"Sleeping, Resting",Inner voice,50,49,male,right,81,38,65,18,1
+3x6k0j,Mon Sep 12 2022 07:26:57 GMT+0200 (Centraleuropæisk sommertid),2022,9,12,7,26,57,rex13,Eating,Inner voice,57,24,male,right,32,30,100,0,0
+3yr7yh,Thu Sep 22 2022 22:39:12 GMT+0200 (Centraleuropæisk sommertid),2022,9,22,22,39,12,rex13,Drinking,Unsymbolized thinking,99,24,male,right,95,93,70,4,13
+4c8xvd,Thu Sep 08 2022 21:15:17 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,21,15,17,rex13,Leisure,Feelings,54,24,male,right,84,22,100,9,2
+6k3sjq,Fri Sep 09 2022 14:21:26 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,14,21,26,rex13,"Working, Studying",Inner voice,66,24,male,right,40,42,10,6,5
+7dtycg,Sun Sep 25 2022 21:58:25 GMT+0200 (Centraleuropæisk sommertid),2022,9,25,21,58,25,rex13,"Sleeping, Resting",Inner voice,63,24,male,right,40,11,100,13,2
+7gfx2e,Sun Sep 11 2022 02:16:33 GMT+0200 (Centraleuropæisk sommertid),2022,9,11,2,16,33,rex13,Commuting,Sensory awareness,78,24,male,right,73,0,55,16,7
+b7qmdd,Wed Sep 14 2022 11:28:08 GMT+0200 (Centraleuropæisk sommertid),2022,9,14,11,28,8,rex13,"Texting, Emailing, Social Networking",Inner voice,66,24,male,right,34,23,20,10,4
+cbvz03,Thu Sep 08 2022 21:29:14 GMT+0200 (Centraleuropæisk sommertid),2022,9,8,21,29,14,rex13,Leisure,Inner voice,78,24,male,right,56,7,100,13,2
+fx0z6y,Thu Sep 08 2022 16:29:22 GMT+0200 (Central European Summer Time),2022,9,8,16,29,22,rex13,"Working, Studying",Unsymbolized thinking,48,24,male,right,63,75,72,8,4
+l52kpn,Mon Sep 19 2022 23:09:58 GMT+0200 (Centraleuropæisk sommertid),2022,9,19,23,9,58,rex13,Playing,Inner voice,54,24,male,right,37,13,50,16,4
+lxq5d6,Fri Sep 23 2022 08:41:21 GMT+0200 (Centraleuropæisk sommertid),2022,9,23,8,41,21,rex13,Eating,Inner voice,60,24,male,right,32,15,32,0,0
+nvw1cu,Wed Oct 05 2022 14:01:21 GMT+0200 (Centraleuropæisk sommertid),2022,10,5,14,1,21,rex13,Commuting,Inner voice,84,24,male,right,59,66,100,5,3
+obpom8,Tue Sep 27 2022 20:06:09 GMT+0200 (Centraleuropæisk sommertid),2022,9,27,20,6,9,rex13,Commuting,Unsymbolized thinking,81,24,male,right,60,39,100,12,3
+oeq2es,Fri Oct 07 2022 08:26:48 GMT+0200 (Centraleuropæisk sommertid),2022,10,7,8,26,48,rex13,Eating,Inner voice,69,24,male,right,37,13,99,0,0
+qqsmtz,Tue Sep 13 2022 14:12:00 GMT+0200 (Centraleuropæisk sommertid),2022,9,13,14,12,0,rex13,"Working, Studying",Unsymbolized thinking,63,24,male,right,36,22,33,5,4
+r1hnh8,Fri Sep 09 2022 08:38:17 GMT+0200 (Centraleuropæisk sommertid),2022,9,9,8,38,17,rex13,"Sleeping, Resting",Inner voice,66,24,male,right,50,30,50,0,13
+ykuw0t,Sat Sep 10 2022 19:30:24 GMT+0200 (Centraleuropæisk sommertid),2022,9,10,19,30,24,rex13,Commuting,Inner voice,90,24,male,right,36,16,100,9,0
+6o1gkh,Thu Sep 08 2022 16:31:26 GMT+0200 (Midden-Europese zomertijd),2022,9,8,16,31,26,ufo88,"Working, Studying",Sensory awareness,69,22,female,right,78,50,66,9,1
+0hzv9t,Fri Sep 23 2022 08:16:22 GMT+0200 (CEST),2022,9,23,8,16,22,woo55,Listening to music,Unsymbolized thinking,72,23,female,right,73,35,100,2,1
+1ras6b,Fri Sep 09 2022 06:41:46 GMT+0200 (CEST),2022,9,9,6,41,46,woo55,"Sleeping, Resting",Feelings,69,NA,female,right,31,7,28,0,6
+oy40tb,Tue Nov 15 2022 23:32:44 GMT+0100 (CET),2022,11,15,23,32,44,Woo55,"Texting, Emailing, Social Networking",Unsymbolized thinking,81,23,female,right,63,6,100,15,0
+tr2c6e,Sat Sep 24 2022 14:21:56 GMT+0200 (CEST),2022,9,24,14,21,56,woo55,"Working, Studying",Inner voice,78,23,female,right,66,65,100,3,1
+wchp94,Sat Sep 10 2022 13:49:43 GMT+0200 (Central European Summer Time),2022,9,10,13,49,43,woo55,Listening to music,Unsymbolized thinking,84,23,female,right,50,35,100,4,0
+y84eat,Thu Sep 08 2022 16:29:02 GMT+0200 (Central European Summer Time),2022,9,8,16,29,2,woo55,"Working, Studying",Inner voice,75,23,female,right,60,29,44,0,1
+7jhwhj,Mon Sep 12 2022 07:23:48 GMT+0200 (CEST),2022,9,12,7,23,48,www11,"Showering, Getting Ready",Inner voice,45,25,male,right,25,7,14,4,9
+9lkeze,Sat Sep 10 2022 13:48:50 GMT+0200 (CEST),2022,9,10,13,48,50,www11,"Working, Studying",Inner voice,60,25,male,right,66,73,69,5,1
+9ray0a,Tue Sep 13 2022 13:18:04 GMT+0200 (CEST),2022,9,13,13,18,4,www11,"Working, Studying",Inner voice,49,25,male,right,69,74,65,7,1
+okrj10,Mon Sep 12 2022 15:30:26 GMT+0200 (CEST),2022,9,12,15,30,26,www11,Doing sport,Inner voice,66,25,male,right,67,38,68,8,1
+r63jlw,Sat Sep 17 2022 18:08:33 GMT+0200 (CEST),2022,9,17,18,8,33,www11,Doing sport,Inner voice,68,25,male,right,75,87,77,8,1
+tttbl4,Tue Sep 13 2022 20:35:52 GMT+0200 (CEST),2022,9,13,20,35,52,www11,Eating,Unsymbolized thinking,59,25,male,right,76,74,100,14,0
+x2tnjl,Thu Sep 15 2022 08:10:48 GMT+0200 (CEST),2022,9,15,8,10,48,www11,"Sleeping, Resting",Inner voice,50,25,male,right,61,20,50,0,10
+q96w19,Thu Sep 08 2022 19:12:57 GMT+0200 (CEST),2022,9,8,19,12,57,www111,"Working, Studying",Inner voice,46,25,male,right,55,76,12,13,4
+cdmfer,Sat Sep 24 2022 19:29:26 GMT+0200 (CEST),2022,9,24,19,29,26,www12,Cooking,Inner voice,49,25,male,right,83,73,6,13,4
+fgh8pr,Sat Sep 24 2022 11:01:18 GMT+0200 (CEST),2022,9,24,11,1,18,www12,Drinking,Inner voice,52,25,male,right,76,67,26,3,2
+lkq4f9,Thu Sep 22 2022 22:11:05 GMT+0200 (CEST),2022,9,22,22,11,5,www12,"Sleeping, Resting",Inner voice,52,25,male,right,66,20,88,15,0
+qv1p3q,Sun Sep 25 2022 19:56:41 GMT+0200 (CEST),2022,9,25,19,56,41,www12,Other,Inner voice,56,25,male,right,52,61,69,12,2
+1xkgpp,Fri Sep 09 2022 06:40:38 GMT+0200 (CEST),2022,9,9,6,40,38,www123,"Sleeping, Resting",Inner voice,48,25,male,right,50,15,57,0,8
+d1a5vo,Thu Sep 08 2022 21:29:26 GMT+0200 (CEST),2022,9,8,21,29,26,www123,"Texting, Emailing, Social Networking",Inner voice,51,25,male,right,52,31,64,15,2
+19euj6,Tue Nov 01 2022 11:23:02 GMT+0100 (CET),2022,11,1,11,23,2,yfg54,"Working, Studying",Inner voice,72,23,female,right,83,60,24,5,4
+2et04f,Wed Oct 05 2022 22:45:08 GMT+0200 (CEST),2022,10,5,22,45,8,yfg54,Being on the Internet,Unsymbolized thinking,57,23,female,right,65,26,50,16,1
+39jzwo,Mon Sep 26 2022 06:38:59 GMT+0200 (CEST),2022,9,26,6,38,59,yfg54,Doing sport,Inner voice,155,23,female,right,81,79,32,1,8
+55ey4n,Tue Sep 13 2022 13:02:42 GMT+0200 (CEST),2022,9,13,13,2,42,yfg54,Doing sport,Unsymbolized thinking,147,23,female,right,100,77,72,5,1
+5h4e0l,Sat Sep 10 2022 13:48:36 GMT+0200 (CEST),2022,9,10,13,48,36,yfg54,Housework,Sensory awareness,105,23,female,right,68,66,35,7,0
+7zr1jf,Fri Oct 07 2022 23:56:39 GMT+0200 (CEST),2022,10,7,23,56,39,yfg54,Drinking,Unsymbolized thinking,90,23,female,right,77,63,37,18,4
+80hkpf,Sat Nov 19 2022 13:51:25 GMT+0100 (CET),2022,11,19,13,51,25,yfg54,"Working, Studying",Inner voice,75,23,female,right,76,65,38,6,4
+8pj737,Sat Oct 29 2022 07:37:41 GMT+0200 (CEST),2022,10,29,7,37,41,yfg54,"Sleeping, Resting",Inner voice,66,23,female,right,71,18,38,0,9
+a1gemx,Thu Sep 15 2022 19:59:24 GMT+0200 (CEST),2022,9,15,19,59,24,yfg54,Shopping,Sensory awareness,87,23,female,right,81,63,5,13,4
+bwvz21,Wed Sep 28 2022 12:27:26 GMT+0200 (CEST),2022,9,28,12,27,26,yfg54,"Showering, Getting Ready",Unsymbolized thinking,69,23,female,right,69,62,76,5,1
+byv9ae,Tue Sep 13 2022 14:11:04 GMT+0200 (CEST),2022,9,13,14,11,4,yfg54,Leisure,Inner voice,75,23,female,right,100,95,77,6,2
+d9oq17,Sat Nov 12 2022 14:18:13 GMT+0100 (CET),2022,11,12,14,18,13,yfg54,Housework,Inner voice,90,23,female,right,92,67,31,6,1
+dgtv6r,Mon Sep 12 2022 07:22:21 GMT+0200 (CEST),2022,9,12,7,22,21,yfg54,"Texting, Emailing, Social Networking",Inner voice,72,23,female,right,73,66,82,0,9
+dyoktd,Sun Oct 16 2022 17:20:21 GMT+0200 (CEST),2022,10,16,17,20,21,yfg54,Being on the Internet,Sensory awareness,63,23,female,right,63,75,47,11,2
+ekhwc8,Sun Oct 23 2022 10:29:37 GMT+0200 (CEST),2022,10,23,10,29,37,yfg54,Commuting,Inner voice,72,23,female,right,63,21,26,6,2
+f2dt1z,Fri Sep 09 2022 06:19:29 GMT+0200 (CEST),2022,9,9,6,19,29,yfg54,"Sleeping, Resting",Inner seeing,69,23,female,right,17,39,52,0,7
+fbkju6,Fri Nov 18 2022 08:18:23 GMT+0100 (CET),2022,11,18,8,18,23,yfg54,"Sleeping, Resting",Inner voice,57,23,female,right,73,65,30,1,12
+g67hu4,Mon Nov 14 2022 07:20:13 GMT+0100 (CET),2022,11,14,7,20,13,yfg54,"Showering, Getting Ready",Inner voice,81,23,female,right,71,35,18,0,11
+gnlgfs,Thu Sep 08 2022 16:37:27 GMT+0200 (CEST),2022,9,8,16,37,27,yfg54,"Working, Studying",Inner voice,102,23,female,right,80,91,98,7,0
+j1zv4r,Wed Oct 19 2022 07:58:25 GMT+0200 (CEST),2022,10,19,7,58,25,yfg54,Commuting,Inner voice,96,23,female,right,40,69,63,1,0
+kf9ytx,Fri Oct 21 2022 11:40:01 GMT+0200 (CEST),2022,10,21,11,40,1,yfg54,Watching TV,Inner voice,66,23,female,right,83,75,36,5,1
+klxb47,Wed Oct 12 2022 21:40:41 GMT+0200 (CEST),2022,10,12,21,40,41,yfg54,Doing sport,Sensory awareness,131,23,female,right,61,40,47,14,0
+onrjpl,Fri Oct 07 2022 08:28:12 GMT+0200 (CEST),2022,10,7,8,28,12,yfg54,Commuting,Inner voice,99,23,female,right,86,50,70,2,0
+sos1q9,Sat Oct 08 2022 19:32:28 GMT+0200 (CEST),2022,10,8,19,32,28,yfg54,Watching TV,Sensory awareness,75,23,female,right,82,60,100,9,0
+sr8zdr,Mon Oct 17 2022 18:15:53 GMT+0200 (CEST),2022,10,17,18,15,53,yfg54,Cooking,Unsymbolized thinking,84,23,female,right,72,68,84,11,0
+t5y61x,Sun Nov 13 2022 23:16:19 GMT+0100 (CET),2022,11,13,23,16,19,yfg54,"Sleeping, Resting",Inner voice,57,23,female,right,77,27,69,15,3
+tu6fam,Fri Oct 14 2022 21:38:24 GMT+0200 (CEST),2022,10,14,21,38,24,yfg54,Cooking,Unsymbolized thinking,87,23,female,right,81,62,34,15,0
+tvbyqn,Tue Oct 11 2022 22:16:12 GMT+0200 (CEST),2022,10,11,22,16,12,yfg54,Being on the Internet,Unsymbolized thinking,60,23,female,right,65,12,66,16,2
+ujuudg,Wed Sep 14 2022 11:29:57 GMT+0200 (CEST),2022,9,14,11,29,57,yfg54,Chatting,Inner voice,81,23,female,right,85,98,38,4,3
+vfeq45,Mon Sep 12 2022 11:13:08 GMT+0200 (CEST),2022,9,12,11,13,8,yfg54,Chatting,Sensory awareness,78,23,female,right,100,89,63,4,3
+woqo13,Thu Oct 13 2022 14:06:22 GMT+0200 (CEST),2022,10,13,14,6,22,yfg54,Chatting,Inner voice,66,23,female,right,67,71,53,7,1
+x3rsx1,Wed Nov 09 2022 22:08:52 GMT+0100 (CET),2022,11,9,22,8,52,yfg54,Playing,Inner voice,75,23,female,right,74,58,92,15,0
